@@ -14,6 +14,8 @@
 - Under 'Protocols and Ports', select 'Specified protocols and ports', enter tcp with '12345'
 - Click create
 - Repeat the steps to create a rule for jupyter lab, enter tcp with '5000'
+
+### Install Driverless AI
 - Navigate to the [instance page](https://console.cloud.google.com/compute/instances)
 - SSH to the VM instance by selecting 'Open in Browser Window', ctrl or cmd select for same window.
 - ```nano install.sh```
@@ -42,7 +44,7 @@
   ```
 - ```sudo usermod -aG docker <username>```
 - ```sudo reboot```, close/open SSH terminal
-- ```wget [driverless ai](https://s3.amazonaws.com/artifacts.h2o.ai/releases/ai/h2o/dai/rel-1.8.5-64/x86_64-centos7/dai-docker-centos7-x86_64-1.8.5.1-10.0.tar.gz)```
+- ```wget https://s3.amazonaws.com/artifacts.h2o.ai/releases/ai/h2o/dai/rel-1.8.5-64/x86_64-centos7/dai-docker-centos7-x86_64-1.8.5.1-10.0.tar.gz```
 - ``` sudo docker load < dai-docker-centos7-x86_64-1.8.5.1-10.0.tar.gz```
 - ```nano scripts/start.sh```
 - ```
@@ -60,10 +62,30 @@
     h2oai/dai-centos7-x86_64:1.8.5.1-cuda10.0.64
   ```
 - ```chmod +x scripts.sh```
-- ```http://Your-Driverless-AI-Host-Machine:12345```
+- ```sudo ./scripts/start.sh```
+- Navigate to ```http://Your-Driverless-AI-Host-Machine:12345```
 
+### Install Driverless AI Python Client
+- Open a second [ssh terminal](https://console.cloud.google.com/compute/instances) 
+- Install python3.6 -- client only works with 3.6
+- ```sudo add-apt-repository ppa:deadsnakes/ppa```
+- ```sudo apt update```
+- ```sudo apt install python3.6```
+- ```curl https://bootstrap.pypa.io/get-pip.py | sudo -H python3.6```
+- ```wget --trust-server-names http://Your instace IP:12345/clients/py```
+- ```python3.6 -m pip install h2oai_client-1.8.5.1-py3-none-any.whl```
 
-
+### Install Jupyter Lab
+- ```python3.6 -m pip install jupyterlab```
+- ```jupyter-lab --generate-config```
+- At the top paste:
+  ```
+	c = get_config()
+  c.NotebookApp.ip = '*'
+  c.NotebookApp.open_browser = False
+  c.NotebookApp.port = 5000
+  ```
+  
 ### Run Notebook
 Once Driverless AI is up and running fill in the details below. For GCP the credential are the username and password for the GCP account. With the username being the first of the email before the @.
 
