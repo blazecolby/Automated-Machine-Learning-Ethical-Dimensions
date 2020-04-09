@@ -92,5 +92,11 @@ Once Driverless AI is up and running fill in the details below. For GCP the cred
 address = 'http://localhost:12345' <br>
 username = 'name' <br>
 password = 'pass'
-
+```
+from h2oai_client import Client
+address = 'http://Your instance IP:12345'
+username = 'Username'
+password = 'Password'
+h2oai = Client(address = address, username = username, password = password)
+```
 This will download all the needed files, parse the data, randomize the data, train/test split the data, and return the predictions. 
