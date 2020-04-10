@@ -1,0 +1,46 @@
+Experiment: haravege (d855e4a6-7b39-11ea-8759-0242ac110002)
+  Version: 1.8.5.1, 2020-04-10 16:54
+  Settings: 7/2/8, seed=1055305050, GPUs disabled
+  Train data: train_twitter_sentimentCare_Harm.csv (1842, 2)
+  Validation data: N/A
+  Test data: test_twitter_sentimentCare_Harm.csv (790, 1)
+  Target column: y (3-class)
+System specs: Docker/Linux, 51 GB, 8 CPU cores, 0/0 GPU
+  Max memory usage: 7.48 GB, 0 GB GPU
+Recipe: AutoDL (32 iterations, 8 individuals)
+  Validation scheme: stratified, 6 internal holdouts (3-fold CV)
+  Feature engineering: 305 features scored (57 selected)
+Timing:
+  Data preparation: 9.90 secs
+  Shift/Leakage detection: 0.02 secs
+  Model and feature tuning: 4069.49 secs (137 of 192 models trained)
+  Feature evolution: 885.90 secs (129 of 288 models trained)
+  Final pipeline training: 2436.51 secs (6 models trained)
+  Python / MOJO scorer building: 157.21 secs / 213.44 secs
+Validation score: LOGLOSS = 0.9729774 (constant preds)
+Validation score: LOGLOSS = 0.8259531 +/- 0.02574126 (baseline)
+Validation score: LOGLOSS = 0.817802 +/- 0.02821374 (final pipeline)
+Test score:       LOGLOSS = 0.7870102 +/- 0.02821374 (final pipeline)
+
+Final validation scores (internal holdout, bootstrap on folds) +/- stddev:
+                   MCC = 0.4903817 +/- 0.02842689 (more is better)
+              MACROAUC = 0.7428243 +/- 0.01803737 (more is better)
+                  GINI = 0.6239111 +/- 0.02810368 (more is better)
+                    F2 = 0.7142904 +/- 3.257329e-05 (more is better)
+                    F1 = 0.6602545 +/- 0.01895126 (more is better)
+                   F05 = 0.6602545 +/- 0.01895126 (more is better)
+                 AUCPR = 0.6738206 +/- 0.02357433 (more is better)
+                   AUC = 0.8119555 +/- 0.01405184 (more is better)
+              ACCURACY = 0.6602545 +/- 0.01895126 (more is better)
+    optimized: LOGLOSS = 0.817802 +/- 0.02821374 (less is better)
+Final test scores (external holdout) +/- stddev:
+                   MCC = 0.4835443 +/- 0.02842689 (more is better)
+              MACROAUC = 0.7735489 +/- 0.01803737 (more is better)
+                  GINI = 0.6548502 +/- 0.02810368 (more is better)
+                    F2 = 0.7142857 +/- 3.257329e-05 (more is better)
+                    F1 = 0.6556962 +/- 0.01895126 (more is better)
+                   F05 = 0.6556962 +/- 0.01895126 (more is better)
+                 AUCPR = 0.6812096 +/- 0.02357433 (more is better)
+                   AUC = 0.8274251 +/- 0.01405184 (more is better)
+              ACCURACY = 0.6556962 +/- 0.01895126 (more is better)
+    optimized: LOGLOSS = 0.7870102 +/- 0.02821374 (less is better)

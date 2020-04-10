@@ -1,0 +1,3440 @@
+{
+    "indiv_id": {
+        "0": 7
+    },
+    "iter_num": {
+        "0": 27
+    },
+    "accuracy": {
+        "0": 7
+    },
+    "time_tolerance": {
+        "0": 2
+    },
+    "interpretability": {
+        "0": 8
+    },
+    "score": {
+        "0": 0.8398948585
+    },
+    "tournament_score": {
+        "0": 0.8398948585
+    },
+    "score_sd": {
+        "0": 0.0253748626
+    },
+    "top derived_features": {
+        "0": "[['7_TEXTCNN_TE:tweet.0', 1.0], ['9_TEXTBIGRU_TE:tweet.1', 0.9639872312545776], ['7_TEXTCNN_TE:tweet.2', 0.9146921038627625]]"
+    },
+    "top original_features": {
+        "0": "[['tweet', 1.0]]"
+    },
+    "training_times": {
+        "0": 6.0928645134
+    },
+    "best_iterations": {
+        "0": 97
+    },
+    "last_3_mutation_try_actual_actions": {
+        "0": []
+    },
+    "ngenes_start": {
+        "0": 3
+    },
+    "ngenes_max": {
+        "0": 100
+    },
+    "ngenes": {
+        "0": 4
+    },
+    "ngenes_dead": {
+        "0": 8
+    },
+    "nfeatures_max": {
+        "0": 100
+    },
+    "nfeatures": {
+        "0": 31
+    },
+    "feature_cost": {
+        "0": 31
+    },
+    "model_name": {
+        "0": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "0": "NoneType"
+    },
+    "from_brain": {
+        "0": false
+    },
+    "derived_from_brain": {
+        "0": false
+    },
+    "from_brain_count": {
+        "0": 0
+    },
+    "derived_from_brain_count": {
+        "0": 0
+    },
+    "booster": {
+        "0": "lightgbm"
+    },
+    "model_class_name": {
+        "0": "LightGBMModel"
+    },
+    "n_gpus": {
+        "0": 0
+    },
+    "gpu_id": {
+        "0": 0
+    },
+    "n_jobs": {
+        "0": 4
+    },
+    "num_classes": {
+        "0": 3
+    },
+    "num_class": {
+        "0": 3
+    },
+    "labels": {
+        "0": [
+            0,
+            1,
+            2
+        ]
+    },
+    "score_f_name": {
+        "0": "LOGLOSS"
+    },
+    "random_state": {
+        "0": 290176261
+    },
+    "time_column": {
+        "0": ""
+    },
+    "tgc": {
+        "0": ""
+    },
+    "pred_gap": {
+        "0": ""
+    },
+    "pred_periods": {
+        "0": ""
+    },
+    "target": {
+        "0": ""
+    },
+    "n_estimators": {
+        "0": 600
+    },
+    "learning_rate": {
+        "0": 0.05
+    },
+    "reg_alpha": {
+        "0": 0.0
+    },
+    "reg_lambda": {
+        "0": 1.0
+    },
+    "gamma": {
+        "0": 0
+    },
+    "max_bin": {
+        "0": 256
+    },
+    "scale_pos_weight": {
+        "0": 1
+    },
+    "max_delta_step": {
+        "0": 0
+    },
+    "min_child_weight": {
+        "0": 1
+    },
+    "subsample": {
+        "0": 0.7
+    },
+    "subsample_freq": {
+        "0": 1
+    },
+    "colsample_bytree": {
+        "0": 0.8
+    },
+    "tree_method": {
+        "0": "hist"
+    },
+    "grow_policy": {
+        "0": "depthwise"
+    },
+    "max_leaves": {
+        "0": 0
+    },
+    "max_depth": {
+        "0": 6
+    },
+    "min_data_in_bin": {
+        "0": 1
+    },
+    "min_child_samples": {
+        "0": 1
+    },
+    "boosting_type": {
+        "0": "gbdt"
+    },
+    "enable_early_stopping_rounds": {
+        "0": true
+    },
+    "objective": {
+        "0": "multi:softprob"
+    },
+    "eval_metric": {
+        "0": "mlogloss"
+    },
+    "monotonicity_constraints": {
+        "0": false
+    },
+    "silent": {
+        "0": true
+    },
+    "seed": {
+        "0": 290176261
+    },
+    "disable_gpus": {
+        "0": true
+    },
+    "lossguide": {
+        "0": false
+    },
+    "dummy": {
+        "0": false
+    },
+    "ensemble_level": {
+        "0": 1
+    },
+    "train_shape": {
+        "0": [
+            1842,
+            2
+        ]
+    },
+    "valid_shape": {
+        "0": ""
+    },
+    "model_origin": {
+        "0": "EXTRA_FS"
+    },
+    "best_learning_rate": {
+        "0": 0.05
+    },
+    "task": {
+        "0": {
+            "address": "http://127.0.0.1:12345",
+            "isMultinode": false,
+            "method": "on_experiment",
+            "server_cwd": "/opt/h2oai/dai"
+        }
+    },
+    "experiment_id": {
+        "0": "d855e4a6-7b39-11ea-8759-0242ac110002"
+    },
+    "early_stopping_rounds": {
+        "0": 30
+    }
+}{
+    "indiv_id": {
+        "27": 3,
+        "28": 5,
+        "29": 6,
+        "30": 8
+    },
+    "iter_num": {
+        "27": 28,
+        "28": 28,
+        "29": 28,
+        "30": 28
+    },
+    "accuracy": {
+        "27": 7,
+        "28": 7,
+        "29": 7,
+        "30": 7
+    },
+    "time_tolerance": {
+        "27": 2,
+        "28": 2,
+        "29": 2,
+        "30": 2
+    },
+    "interpretability": {
+        "27": 8,
+        "28": 8,
+        "29": 8,
+        "30": 8
+    },
+    "score": {
+        "27": 0.8672465025,
+        "28": 0.8272749542,
+        "29": 0.8362348147,
+        "30": 0.8401514924
+    },
+    "tournament_score": {
+        "27": 0.8672465025,
+        "28": 0.8272749542,
+        "29": 0.8362348147,
+        "30": 0.8401514924
+    },
+    "score_sd": {
+        "27": 0.0261438713,
+        "28": 0.0243192359,
+        "29": 0.0271898485,
+        "30": 0.0265687383
+    },
+    "top derived_features": {
+        "27": "[['3_TEXTBIGRU_TE:tweet.1', 1.0], ['1_Txt:tweet.4', 0.8713929057121277], ['1_Txt:tweet.5', 0.7347007989883423]]",
+        "28": "[['10_TEXTCNN_TE:tweet.1', 1.0], ['10_TEXTCNN_TE:tweet.0', 0.5822562575340271], ['10_TEXTCNN_TE:tweet.2', 0.4804285168647766]]",
+        "29": "[['4_TEXTCNN_TE:tweet.1', 1.0], ['4_TEXTCNN_TE:tweet.0', 0.5319572687149048], ['4_TEXTCNN_TE:tweet.2', 0.5182244777679443]]",
+        "30": "[['5_TEXTCNN_TE:tweet.1', 1.0], ['5_TEXTCNN_TE:tweet.0', 0.7897951602935791], ['5_TEXTCNN_TE:tweet.2', 0.6727653741836548]]"
+    },
+    "top original_features": {
+        "27": "[['tweet', 1.0]]",
+        "28": "[['tweet', 1.0]]",
+        "29": "[['tweet', 1.0]]",
+        "30": "[['tweet', 1.0]]"
+    },
+    "training_times": {
+        "27": 10.6467328072,
+        "28": 3.3083031178,
+        "29": 26.9103336334,
+        "30": 7.2213568687
+    },
+    "best_iterations": {
+        "27": 84,
+        "28": 97,
+        "29": 83,
+        "30": 95
+    },
+    "last_3_mutation_try_actual_actions": {
+        "27": [
+            [
+                "prune_by_features",
+                "mutate_extra_5_4"
+            ],
+            [
+                "prune",
+                "prune_1"
+            ],
+            [
+                "add",
+                "add"
+            ]
+        ],
+        "28": [
+            [
+                "prune_by_features",
+                "prune_by_features_1"
+            ],
+            [
+                "add",
+                "add"
+            ],
+            [
+                "add",
+                "add"
+            ]
+        ],
+        "29": [
+            [
+                "prune_by_features",
+                "mutate_extra_3_3"
+            ],
+            [
+                "prune_by_features",
+                "prune_by_features_2"
+            ],
+            [
+                "add_best",
+                "add_best"
+            ]
+        ],
+        "30": [
+            [
+                "add_best",
+                "add_best"
+            ],
+            [
+                "add",
+                "add"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ]
+        ]
+    },
+    "ngenes_start": {
+        "27": 5,
+        "28": 3,
+        "29": 3,
+        "30": 5
+    },
+    "ngenes_max": {
+        "27": 100,
+        "28": 100,
+        "29": 100,
+        "30": 100
+    },
+    "ngenes": {
+        "27": 4,
+        "28": 4,
+        "29": 3,
+        "30": 5
+    },
+    "ngenes_dead": {
+        "27": 2,
+        "28": 8,
+        "29": 2,
+        "30": 2
+    },
+    "nfeatures_max": {
+        "27": 100,
+        "28": 100,
+        "29": 100,
+        "30": 100
+    },
+    "nfeatures": {
+        "27": 57,
+        "28": 57,
+        "29": 56,
+        "30": 60
+    },
+    "feature_cost": {
+        "27": 57,
+        "28": 57,
+        "29": 56,
+        "30": 60
+    },
+    "model_name": {
+        "27": "LIGHTGBM",
+        "28": "LIGHTGBM",
+        "29": "XGBOOSTGBM",
+        "30": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "27": "NoneType",
+        "28": "NoneType",
+        "29": "NoneType",
+        "30": "NoneType"
+    },
+    "from_brain": {
+        "27": false,
+        "28": false,
+        "29": false,
+        "30": false
+    },
+    "derived_from_brain": {
+        "27": false,
+        "28": true,
+        "29": false,
+        "30": false
+    },
+    "from_brain_count": {
+        "27": 0,
+        "28": 0,
+        "29": 0,
+        "30": 0
+    },
+    "derived_from_brain_count": {
+        "27": 0,
+        "28": 1,
+        "29": 0,
+        "30": 0
+    },
+    "booster": {
+        "27": "lightgbm",
+        "28": "lightgbm",
+        "29": "gbtree",
+        "30": "lightgbm"
+    },
+    "model_class_name": {
+        "27": "LightGBMModel",
+        "28": "LightGBMModel",
+        "29": "XGBoostGBMModel",
+        "30": "LightGBMModel"
+    },
+    "n_gpus": {
+        "27": 0,
+        "28": 0,
+        "29": 0,
+        "30": 0
+    },
+    "gpu_id": {
+        "27": 0,
+        "28": 0,
+        "29": 0,
+        "30": 0
+    },
+    "n_jobs": {
+        "27": 4,
+        "28": 4,
+        "29": 4,
+        "30": 4
+    },
+    "num_classes": {
+        "27": 3,
+        "28": 3,
+        "29": 3,
+        "30": 3
+    },
+    "num_class": {
+        "27": 3,
+        "28": 3,
+        "29": 3,
+        "30": 3
+    },
+    "labels": {
+        "27": [
+            0,
+            1,
+            2
+        ],
+        "28": [
+            0,
+            1,
+            2
+        ],
+        "29": [
+            0,
+            1,
+            2
+        ],
+        "30": [
+            0,
+            1,
+            2
+        ]
+    },
+    "score_f_name": {
+        "27": "LOGLOSS",
+        "28": "LOGLOSS",
+        "29": "LOGLOSS",
+        "30": "LOGLOSS"
+    },
+    "random_state": {
+        "27": 1055305050,
+        "28": 290176261,
+        "29": 1055305050,
+        "30": 1055305050
+    },
+    "time_column": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "tgc": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "pred_gap": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "pred_periods": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "target": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "n_estimators": {
+        "27": 600,
+        "28": 600,
+        "29": 600,
+        "30": 600
+    },
+    "learning_rate": {
+        "27": 0.05,
+        "28": 0.05,
+        "29": 0.05,
+        "30": 0.05
+    },
+    "early_stopping_rounds": {
+        "27": 30,
+        "28": 30,
+        "29": 30,
+        "30": 30
+    },
+    "reg_alpha": {
+        "27": 0.0,
+        "28": 0.0,
+        "29": 0.0,
+        "30": 2.0
+    },
+    "reg_lambda": {
+        "27": 1.0,
+        "28": 0.5,
+        "29": 1.0,
+        "30": 0.0
+    },
+    "gamma": {
+        "27": 0.0,
+        "28": 0.0,
+        "29": 0.0,
+        "30": 0.01
+    },
+    "max_bin": {
+        "27": 256,
+        "28": 128,
+        "29": 256,
+        "30": 256
+    },
+    "scale_pos_weight": {
+        "27": 1.0,
+        "28": 1.0,
+        "29": 1.0,
+        "30": 1.0
+    },
+    "max_delta_step": {
+        "27": 0.0,
+        "28": 0.0,
+        "29": 0.0,
+        "30": 0.0
+    },
+    "min_child_weight": {
+        "27": 1,
+        "28": 1,
+        "29": 1,
+        "30": 1
+    },
+    "subsample": {
+        "27": 0.7,
+        "28": 0.8,
+        "29": 0.7,
+        "30": 1.0
+    },
+    "subsample_freq": {
+        "27": 1.0,
+        "28": 5.0,
+        "29": "",
+        "30": 0.0
+    },
+    "colsample_bytree": {
+        "27": 0.8,
+        "28": 0.4,
+        "29": 0.8,
+        "30": 0.45
+    },
+    "tree_method": {
+        "27": "hist",
+        "28": "hist",
+        "29": "hist",
+        "30": "hist"
+    },
+    "grow_policy": {
+        "27": "depthwise",
+        "28": "lossguide",
+        "29": "depthwise",
+        "30": "lossguide"
+    },
+    "max_leaves": {
+        "27": 0,
+        "28": 8,
+        "29": 0,
+        "30": 64
+    },
+    "max_depth": {
+        "27": 6,
+        "28": 0,
+        "29": 6,
+        "30": 0
+    },
+    "min_data_in_bin": {
+        "27": 1.0,
+        "28": 3.0,
+        "29": "",
+        "30": 10.0
+    },
+    "min_child_samples": {
+        "27": 1.0,
+        "28": 10.0,
+        "29": "",
+        "30": 5.0
+    },
+    "boosting_type": {
+        "27": "gbdt",
+        "28": "gbdt",
+        "29": "",
+        "30": "gbdt"
+    },
+    "enable_early_stopping_rounds": {
+        "27": true,
+        "28": true,
+        "29": "",
+        "30": true
+    },
+    "objective": {
+        "27": "multi:softprob",
+        "28": "multi:softprob",
+        "29": "multi:softprob",
+        "30": "multi:softprob"
+    },
+    "eval_metric": {
+        "27": "mlogloss",
+        "28": "mlogloss",
+        "29": "mlogloss",
+        "30": "mlogloss"
+    },
+    "monotonicity_constraints": {
+        "27": false,
+        "28": false,
+        "29": false,
+        "30": false
+    },
+    "silent": {
+        "27": true,
+        "28": true,
+        "29": true,
+        "30": true
+    },
+    "seed": {
+        "27": 1055305050,
+        "28": 290176261,
+        "29": 1055305050,
+        "30": 1055305050
+    },
+    "disable_gpus": {
+        "27": true,
+        "28": true,
+        "29": true,
+        "30": true
+    },
+    "lossguide": {
+        "27": false,
+        "28": false,
+        "29": false,
+        "30": false
+    },
+    "dummy": {
+        "27": false,
+        "28": false,
+        "29": false,
+        "30": false
+    },
+    "ensemble_level": {
+        "27": 1,
+        "28": 1,
+        "29": 1,
+        "30": 1
+    },
+    "train_shape": {
+        "27": [
+            1842,
+            2
+        ],
+        "28": [
+            1842,
+            2
+        ],
+        "29": [
+            1842,
+            2
+        ],
+        "30": [
+            1842,
+            2
+        ]
+    },
+    "valid_shape": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "model_origin": {
+        "27": "SEQUENCE",
+        "28": "DefaultIndiv: do_te:False,interp:11,depth:6,num_as_cat:False",
+        "29": "SEQUENCE",
+        "30": "RANDOM"
+    },
+    "early_stopping_threshold": {
+        "27": "",
+        "28": "",
+        "29": 1e-05,
+        "30": ""
+    },
+    "debug_verbose": {
+        "27": "",
+        "28": "",
+        "29": 0.0,
+        "30": ""
+    },
+    "epochs": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "add_wide": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "add_attention": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "layers": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "activation": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "batch_size": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "chunk_size": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "dropout": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "strategy": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "l1": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "l2": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "ort_loss": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "ort_loss_tau": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "normalize_type": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "best_learning_rate": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "task": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    },
+    "experiment_id": {
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+    }
+}{
+    "indiv_id": {
+        "31": 1,
+        "32": 2,
+        "33": 5,
+        "34": 8
+    },
+    "iter_num": {
+        "31": 29,
+        "32": 29,
+        "33": 29,
+        "34": 29
+    },
+    "accuracy": {
+        "31": 7,
+        "32": 7,
+        "33": 7,
+        "34": 7
+    },
+    "time_tolerance": {
+        "31": 2,
+        "32": 2,
+        "33": 2,
+        "34": 2
+    },
+    "interpretability": {
+        "31": 8,
+        "32": 8,
+        "33": 8,
+        "34": 8
+    },
+    "score": {
+        "31": 0.8740624447,
+        "32": 0.8260818561,
+        "33": 0.8340773372,
+        "34": 0.960899404
+    },
+    "tournament_score": {
+        "31": 0.8740624447,
+        "32": 0.8260818561,
+        "33": 0.8340773372,
+        "34": 0.960899404
+    },
+    "score_sd": {
+        "31": 0.0249068807,
+        "32": 0.0254539859,
+        "33": 0.0259317045,
+        "34": 0.069125503
+    },
+    "top derived_features": {
+        "31": "[['1_Txt:tweet.4', 1.0], ['1_Txt:tweet.5', 0.8693400621414185], ['1_Txt:tweet.3', 0.8596220016479492]]",
+        "32": "[['10_TEXTCNN_TE:tweet.1', 1.0], ['10_TEXTCNN_TE:tweet.0', 0.5984157919883728], ['9_TEXTBIGRU_TE:tweet.1', 0.4529837667942047]]",
+        "33": "[['5_TEXTCNN_TE:tweet.1', 1.0], ['5_TEXTCNN_TE:tweet.2', 0.5745909810066223], ['5_TEXTCNN_TE:tweet.0', 0.5615432262420654]]",
+        "34": "[['6_TEXTBIGRU_TE:tweet.2', 1.0], ['6_TEXTBIGRU_TE:tweet.1', 0.941063582848832], ['6_TEXTBIGRU_TE:tweet.0', 0.5398657869549227]]"
+    },
+    "top original_features": {
+        "31": "[['tweet', 1.0]]",
+        "32": "[['tweet', 1.0]]",
+        "33": "[['tweet', 1.0]]",
+        "34": "[['tweet', 1.0]]"
+    },
+    "training_times": {
+        "31": 11.588121891,
+        "32": 3.7527697086,
+        "33": 6.8144385815,
+        "34": 4.5457441807
+    },
+    "best_iterations": {
+        "31": 98,
+        "32": 133,
+        "33": 145,
+        "34": 63
+    },
+    "last_3_mutation_try_actual_actions": {
+        "31": [
+            [
+                "add_best",
+                "perturb_xgb"
+            ],
+            [
+                "add_best",
+                "prune_by_features_2"
+            ],
+            [
+                "add_best",
+                "prune_2"
+            ]
+        ],
+        "32": [
+            [
+                "prune_by_features",
+                "prune_by_features_1"
+            ],
+            [
+                "add",
+                "add"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ]
+        ],
+        "33": [
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "add",
+                "add"
+            ]
+        ],
+        "34": [
+            [
+                "prune",
+                "prune_3"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ]
+        ]
+    },
+    "ngenes_start": {
+        "31": 3,
+        "32": 3,
+        "33": 5,
+        "34": 3
+    },
+    "ngenes_max": {
+        "31": 100,
+        "32": 100,
+        "33": 100,
+        "34": 100
+    },
+    "ngenes": {
+        "31": 1,
+        "32": 4,
+        "33": 5,
+        "34": 1
+    },
+    "ngenes_dead": {
+        "31": 11,
+        "32": 7,
+        "33": 3,
+        "34": 6
+    },
+    "nfeatures_max": {
+        "31": 100,
+        "32": 100,
+        "33": 100,
+        "34": 100
+    },
+    "nfeatures": {
+        "31": 50,
+        "32": 59,
+        "33": 60,
+        "34": 3
+    },
+    "feature_cost": {
+        "31": 50,
+        "32": 59,
+        "33": 60,
+        "34": 3
+    },
+    "model_name": {
+        "31": "LIGHTGBM",
+        "32": "LIGHTGBM",
+        "33": "LIGHTGBM",
+        "34": "XGBOOSTGBM"
+    },
+    "target_transformer_name": {
+        "31": "NoneType",
+        "32": "NoneType",
+        "33": "NoneType",
+        "34": "NoneType"
+    },
+    "from_brain": {
+        "31": false,
+        "32": false,
+        "33": false,
+        "34": false
+    },
+    "derived_from_brain": {
+        "31": true,
+        "32": true,
+        "33": false,
+        "34": false
+    },
+    "from_brain_count": {
+        "31": 0,
+        "32": 0,
+        "33": 0,
+        "34": 0
+    },
+    "derived_from_brain_count": {
+        "31": 1,
+        "32": 1,
+        "33": 0,
+        "34": 0
+    },
+    "booster": {
+        "31": "lightgbm",
+        "32": "lightgbm",
+        "33": "lightgbm",
+        "34": "gbtree"
+    },
+    "model_class_name": {
+        "31": "LightGBMModel",
+        "32": "LightGBMModel",
+        "33": "LightGBMModel",
+        "34": "XGBoostGBMModel"
+    },
+    "n_gpus": {
+        "31": 0,
+        "32": 0,
+        "33": 0,
+        "34": 0
+    },
+    "gpu_id": {
+        "31": 0,
+        "32": 0,
+        "33": 0,
+        "34": 0
+    },
+    "n_jobs": {
+        "31": 4,
+        "32": 4,
+        "33": 4,
+        "34": 4
+    },
+    "num_classes": {
+        "31": 3,
+        "32": 3,
+        "33": 3,
+        "34": 3
+    },
+    "num_class": {
+        "31": 3,
+        "32": 3,
+        "33": 3,
+        "34": 3
+    },
+    "labels": {
+        "31": [
+            0,
+            1,
+            2
+        ],
+        "32": [
+            0,
+            1,
+            2
+        ],
+        "33": [
+            0,
+            1,
+            2
+        ],
+        "34": [
+            0,
+            1,
+            2
+        ]
+    },
+    "score_f_name": {
+        "31": "LOGLOSS",
+        "32": "LOGLOSS",
+        "33": "LOGLOSS",
+        "34": "LOGLOSS"
+    },
+    "random_state": {
+        "31": 290176261,
+        "32": 290176261,
+        "33": 1055305050,
+        "34": 1055305050
+    },
+    "time_column": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "tgc": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "pred_gap": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "pred_periods": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "target": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "n_estimators": {
+        "31": 600,
+        "32": 600,
+        "33": 600,
+        "34": 600
+    },
+    "learning_rate": {
+        "31": 0.05,
+        "32": 0.05,
+        "33": 0.05,
+        "34": 0.05
+    },
+    "early_stopping_rounds": {
+        "31": 30,
+        "32": 30,
+        "33": 30,
+        "34": 30
+    },
+    "reg_alpha": {
+        "31": 0.0,
+        "32": 0.0,
+        "33": 0.0,
+        "34": 0.5
+    },
+    "reg_lambda": {
+        "31": 10.0,
+        "32": 0.5,
+        "33": 10.0,
+        "34": 0.0
+    },
+    "gamma": {
+        "31": 0.0,
+        "32": 0.0,
+        "33": 0.01,
+        "34": 0.01
+    },
+    "max_bin": {
+        "31": 128,
+        "32": 128,
+        "33": 64,
+        "34": 128
+    },
+    "scale_pos_weight": {
+        "31": 1.0,
+        "32": 1.0,
+        "33": 1.0,
+        "34": 1.0
+    },
+    "max_delta_step": {
+        "31": 0.0,
+        "32": 0.0,
+        "33": 0.0,
+        "34": 0.0
+    },
+    "min_child_weight": {
+        "31": 1,
+        "32": 1,
+        "33": 1,
+        "34": 1
+    },
+    "subsample": {
+        "31": 1.0,
+        "32": 0.8,
+        "33": 0.6,
+        "34": 1.0
+    },
+    "subsample_freq": {
+        "31": 0.0,
+        "32": 20.0,
+        "33": 5.0,
+        "34": ""
+    },
+    "colsample_bytree": {
+        "31": 0.3,
+        "32": 0.4,
+        "33": 0.4,
+        "34": 0.5
+    },
+    "tree_method": {
+        "31": "hist",
+        "32": "hist",
+        "33": "hist",
+        "34": "hist"
+    },
+    "grow_policy": {
+        "31": "lossguide",
+        "32": "lossguide",
+        "33": "lossguide",
+        "34": "depthwise"
+    },
+    "max_leaves": {
+        "31": 256,
+        "32": 8,
+        "33": 256,
+        "34": 0
+    },
+    "max_depth": {
+        "31": 0,
+        "32": 0,
+        "33": 0,
+        "34": 5
+    },
+    "min_data_in_bin": {
+        "31": 1.0,
+        "32": 3.0,
+        "33": 5.0,
+        "34": ""
+    },
+    "min_child_samples": {
+        "31": 1.0,
+        "32": 10.0,
+        "33": 5.0,
+        "34": ""
+    },
+    "boosting_type": {
+        "31": "gbdt",
+        "32": "gbdt",
+        "33": "gbdt",
+        "34": ""
+    },
+    "enable_early_stopping_rounds": {
+        "31": true,
+        "32": true,
+        "33": true,
+        "34": ""
+    },
+    "objective": {
+        "31": "multi:softprob",
+        "32": "multi:softprob",
+        "33": "multi:softprob",
+        "34": "multi:softprob"
+    },
+    "eval_metric": {
+        "31": "mlogloss",
+        "32": "mlogloss",
+        "33": "mlogloss",
+        "34": "mlogloss"
+    },
+    "monotonicity_constraints": {
+        "31": false,
+        "32": false,
+        "33": false,
+        "34": false
+    },
+    "silent": {
+        "31": true,
+        "32": true,
+        "33": true,
+        "34": true
+    },
+    "seed": {
+        "31": 290176261,
+        "32": 290176261,
+        "33": 1055305050,
+        "34": 1055305050
+    },
+    "disable_gpus": {
+        "31": true,
+        "32": true,
+        "33": true,
+        "34": true
+    },
+    "lossguide": {
+        "31": false,
+        "32": false,
+        "33": false,
+        "34": false
+    },
+    "dummy": {
+        "31": false,
+        "32": false,
+        "33": false,
+        "34": false
+    },
+    "ensemble_level": {
+        "31": 1,
+        "32": 1,
+        "33": 1,
+        "34": 1
+    },
+    "train_shape": {
+        "31": [
+            1842,
+            2
+        ],
+        "32": [
+            1842,
+            2
+        ],
+        "33": [
+            1842,
+            2
+        ],
+        "34": [
+            1842,
+            2
+        ]
+    },
+    "valid_shape": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "model_origin": {
+        "31": "DefaultIndiv: do_te:False,interp:11,depth:6,num_as_cat:False",
+        "32": "DefaultIndiv: do_te:False,interp:11,depth:6,num_as_cat:False",
+        "33": "RANDOM",
+        "34": "SEQUENCE"
+    },
+    "early_stopping_threshold": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": 1e-05
+    },
+    "debug_verbose": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": 0.0
+    },
+    "epochs": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "add_wide": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "add_attention": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "layers": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "activation": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "batch_size": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "chunk_size": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "dropout": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "strategy": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "l1": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "l2": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "ort_loss": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "ort_loss_tau": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "normalize_type": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "best_learning_rate": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "task": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    },
+    "experiment_id": {
+        "31": "",
+        "32": "",
+        "33": "",
+        "34": ""
+    }
+}{
+    "indiv_id": {
+        "35": 0,
+        "36": 2,
+        "37": 3,
+        "38": 6
+    },
+    "iter_num": {
+        "35": 30,
+        "36": 30,
+        "37": 30,
+        "38": 30
+    },
+    "accuracy": {
+        "35": 7,
+        "36": 7,
+        "37": 7,
+        "38": 7
+    },
+    "time_tolerance": {
+        "35": 2,
+        "36": 2,
+        "37": 2,
+        "38": 2
+    },
+    "interpretability": {
+        "35": 8,
+        "36": 8,
+        "37": 8,
+        "38": 8
+    },
+    "score": {
+        "35": 0.8327026663,
+        "36": 0.8287994619,
+        "37": 0.8456557217,
+        "38": 0.8369710605
+    },
+    "tournament_score": {
+        "35": 0.8327026663,
+        "36": 0.8287994619,
+        "37": 0.8456557217,
+        "38": 0.8369710605
+    },
+    "score_sd": {
+        "35": 0.0243259885,
+        "36": 0.0246548729,
+        "37": 0.026734892,
+        "38": 0.026689634
+    },
+    "top derived_features": {
+        "35": "[['14_TEXTCNN_TE:tweet.1', 1.0], ['14_TEXTCNN_TE:tweet.0', 0.4529968202114105], ['1_Txt:tweet.4', 0.35999396443367004]]",
+        "36": "[['10_TEXTCNN_TE:tweet.1', 1.0], ['10_TEXTCNN_TE:tweet.0', 0.726548433303833], ['10_TEXTCNN_TE:tweet.2', 0.604889452457428]]",
+        "37": "[['10_TEXTCNN_TE:tweet.1', 1.0], ['10_TEXTCNN_TE:tweet.2', 0.8910225033760071], ['10_TEXTCNN_TE:tweet.0', 0.8146613836288452]]",
+        "38": "[['5_TEXTCNN_TE:tweet.1', 1.0], ['5_TEXTCNN_TE:tweet.0', 0.5823093056678772], ['1_TEXTBIGRU_TE:tweet.1', 0.5424613952636719]]"
+    },
+    "top original_features": {
+        "35": "[['tweet', 1.0]]",
+        "36": "[['tweet', 1.0]]",
+        "37": "[['tweet', 1.0]]",
+        "38": "[['tweet', 1.0]]"
+    },
+    "training_times": {
+        "35": 3.6619427204,
+        "36": 2.8065824509,
+        "37": 4.2264182568,
+        "38": 8.7502067089
+    },
+    "best_iterations": {
+        "35": 120,
+        "36": 110,
+        "37": 110,
+        "38": 130
+    },
+    "last_3_mutation_try_actual_actions": {
+        "35": [
+            [
+                "add_best",
+                "prune_by_features_2"
+            ],
+            [
+                "add_best",
+                "prune_3"
+            ],
+            [
+                "add_best",
+                "add_best"
+            ]
+        ],
+        "36": [
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "prune",
+                "prune_1"
+            ],
+            [
+                "add",
+                "add"
+            ]
+        ],
+        "37": [
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "add",
+                "add"
+            ]
+        ],
+        "38": [
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "prune_by_features",
+                "prune_by_features_1"
+            ]
+        ]
+    },
+    "ngenes_start": {
+        "35": 3,
+        "36": 3,
+        "37": 3,
+        "38": 5
+    },
+    "ngenes_max": {
+        "35": 100,
+        "36": 100,
+        "37": 100,
+        "38": 100
+    },
+    "ngenes": {
+        "35": 2,
+        "36": 5,
+        "37": 5,
+        "38": 3
+    },
+    "ngenes_dead": {
+        "35": 12,
+        "36": 11,
+        "37": 8,
+        "38": 6
+    },
+    "nfeatures_max": {
+        "35": 100,
+        "36": 100,
+        "37": 100,
+        "38": 100
+    },
+    "nfeatures": {
+        "35": 53,
+        "36": 60,
+        "37": 60,
+        "38": 56
+    },
+    "feature_cost": {
+        "35": 53,
+        "36": 60,
+        "37": 60,
+        "38": 56
+    },
+    "model_name": {
+        "35": "LIGHTGBM",
+        "36": "LIGHTGBM",
+        "37": "LIGHTGBM",
+        "38": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "35": "NoneType",
+        "36": "NoneType",
+        "37": "NoneType",
+        "38": "NoneType"
+    },
+    "from_brain": {
+        "35": false,
+        "36": false,
+        "37": false,
+        "38": false
+    },
+    "derived_from_brain": {
+        "35": true,
+        "36": true,
+        "37": true,
+        "38": false
+    },
+    "from_brain_count": {
+        "35": 0,
+        "36": 0,
+        "37": 0,
+        "38": 0
+    },
+    "derived_from_brain_count": {
+        "35": 1,
+        "36": 1,
+        "37": 1,
+        "38": 0
+    },
+    "booster": {
+        "35": "lightgbm",
+        "36": "lightgbm",
+        "37": "lightgbm",
+        "38": "lightgbm"
+    },
+    "model_class_name": {
+        "35": "LightGBMModel",
+        "36": "LightGBMModel",
+        "37": "LightGBMModel",
+        "38": "LightGBMModel"
+    },
+    "n_gpus": {
+        "35": 0,
+        "36": 0,
+        "37": 0,
+        "38": 0
+    },
+    "gpu_id": {
+        "35": 0,
+        "36": 0,
+        "37": 0,
+        "38": 0
+    },
+    "n_jobs": {
+        "35": 4,
+        "36": 4,
+        "37": 4,
+        "38": 4
+    },
+    "num_classes": {
+        "35": 3,
+        "36": 3,
+        "37": 3,
+        "38": 3
+    },
+    "num_class": {
+        "35": 3,
+        "36": 3,
+        "37": 3,
+        "38": 3
+    },
+    "labels": {
+        "35": [
+            0,
+            1,
+            2
+        ],
+        "36": [
+            0,
+            1,
+            2
+        ],
+        "37": [
+            0,
+            1,
+            2
+        ],
+        "38": [
+            0,
+            1,
+            2
+        ]
+    },
+    "score_f_name": {
+        "35": "LOGLOSS",
+        "36": "LOGLOSS",
+        "37": "LOGLOSS",
+        "38": "LOGLOSS"
+    },
+    "random_state": {
+        "35": 290176261,
+        "36": 290176261,
+        "37": 290176261,
+        "38": 1055305050
+    },
+    "time_column": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "tgc": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "pred_gap": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "pred_periods": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "target": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "n_estimators": {
+        "35": 600,
+        "36": 600,
+        "37": 600,
+        "38": 600
+    },
+    "learning_rate": {
+        "35": 0.05,
+        "36": 0.05,
+        "37": 0.05,
+        "38": 0.05
+    },
+    "early_stopping_rounds": {
+        "35": 30,
+        "36": 30,
+        "37": 30,
+        "38": 30
+    },
+    "reg_alpha": {
+        "35": 0.0,
+        "36": 0.0,
+        "37": 0.0,
+        "38": 0.0
+    },
+    "reg_lambda": {
+        "35": 0.5,
+        "36": 0.5,
+        "37": 2.0,
+        "38": 10.0
+    },
+    "gamma": {
+        "35": 0.0,
+        "36": 0.01,
+        "37": 0.0,
+        "38": 10.0
+    },
+    "max_bin": {
+        "35": 256,
+        "36": 128,
+        "37": 64,
+        "38": 64
+    },
+    "scale_pos_weight": {
+        "35": 1.0,
+        "36": 1.0,
+        "37": 1.0,
+        "38": 1.0
+    },
+    "max_delta_step": {
+        "35": 0.0,
+        "36": 0.0,
+        "37": 0.0,
+        "38": 0.0
+    },
+    "min_child_weight": {
+        "35": 1,
+        "36": 1,
+        "37": 1,
+        "38": 1
+    },
+    "subsample": {
+        "35": 0.8,
+        "36": 0.8,
+        "37": 0.5,
+        "38": 0.9
+    },
+    "subsample_freq": {
+        "35": 20,
+        "36": 5,
+        "37": 20,
+        "38": 5
+    },
+    "colsample_bytree": {
+        "35": 0.4,
+        "36": 0.4,
+        "37": 0.3,
+        "38": 0.4
+    },
+    "tree_method": {
+        "35": "hist",
+        "36": "hist",
+        "37": "hist",
+        "38": "hist"
+    },
+    "grow_policy": {
+        "35": "lossguide",
+        "36": "lossguide",
+        "37": "depthwise",
+        "38": "depthwise"
+    },
+    "max_leaves": {
+        "35": 8,
+        "36": 8,
+        "37": 0,
+        "38": 0
+    },
+    "max_depth": {
+        "35": 0,
+        "36": 0,
+        "37": 8,
+        "38": 10
+    },
+    "min_data_in_bin": {
+        "35": 3,
+        "36": 3,
+        "37": 5,
+        "38": 1
+    },
+    "min_child_samples": {
+        "35": 10,
+        "36": 10,
+        "37": 5,
+        "38": 1
+    },
+    "boosting_type": {
+        "35": "gbdt",
+        "36": "gbdt",
+        "37": "gbdt",
+        "38": "gbdt"
+    },
+    "enable_early_stopping_rounds": {
+        "35": true,
+        "36": true,
+        "37": true,
+        "38": true
+    },
+    "objective": {
+        "35": "multi:softprob",
+        "36": "multi:softprob",
+        "37": "multi:softprob",
+        "38": "multi:softprob"
+    },
+    "eval_metric": {
+        "35": "mlogloss",
+        "36": "mlogloss",
+        "37": "mlogloss",
+        "38": "mlogloss"
+    },
+    "monotonicity_constraints": {
+        "35": false,
+        "36": false,
+        "37": false,
+        "38": false
+    },
+    "silent": {
+        "35": true,
+        "36": true,
+        "37": true,
+        "38": true
+    },
+    "seed": {
+        "35": 290176261,
+        "36": 290176261,
+        "37": 290176261,
+        "38": 1055305050
+    },
+    "disable_gpus": {
+        "35": true,
+        "36": true,
+        "37": true,
+        "38": true
+    },
+    "lossguide": {
+        "35": false,
+        "36": false,
+        "37": false,
+        "38": false
+    },
+    "dummy": {
+        "35": false,
+        "36": false,
+        "37": false,
+        "38": false
+    },
+    "ensemble_level": {
+        "35": 1,
+        "36": 1,
+        "37": 1,
+        "38": 1
+    },
+    "train_shape": {
+        "35": [
+            1842,
+            2
+        ],
+        "36": [
+            1842,
+            2
+        ],
+        "37": [
+            1842,
+            2
+        ],
+        "38": [
+            1842,
+            2
+        ]
+    },
+    "valid_shape": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "model_origin": {
+        "35": "DefaultIndiv: do_te:False,interp:11,depth:6,num_as_cat:False",
+        "36": "DefaultIndiv: do_te:False,interp:11,depth:6,num_as_cat:False",
+        "37": "DefaultIndiv: do_te:False,interp:11,depth:6,num_as_cat:False",
+        "38": "RANDOM"
+    },
+    "early_stopping_threshold": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "debug_verbose": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "epochs": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "add_wide": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "add_attention": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "layers": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "activation": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "batch_size": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "chunk_size": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "dropout": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "strategy": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "l1": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "l2": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "ort_loss": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "ort_loss_tau": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "normalize_type": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "best_learning_rate": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "task": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    },
+    "experiment_id": {
+        "35": "",
+        "36": "",
+        "37": "",
+        "38": ""
+    }
+}{
+    "indiv_id": {
+        "39": 0,
+        "40": 1,
+        "41": 2,
+        "42": 6
+    },
+    "iter_num": {
+        "39": 31,
+        "40": 31,
+        "41": 31,
+        "42": 31
+    },
+    "accuracy": {
+        "39": 7,
+        "40": 7,
+        "41": 7,
+        "42": 7
+    },
+    "time_tolerance": {
+        "39": 2,
+        "40": 2,
+        "41": 2,
+        "42": 2
+    },
+    "interpretability": {
+        "39": 8,
+        "40": 8,
+        "41": 8,
+        "42": 8
+    },
+    "score": {
+        "39": 0.9713560708,
+        "40": 0.8623260784,
+        "41": 0.8625409028,
+        "42": 0.8641715624
+    },
+    "tournament_score": {
+        "39": 0.9713560708,
+        "40": 0.8623260784,
+        "41": 0.8625409028,
+        "42": 0.8641715624
+    },
+    "score_sd": {
+        "39": 0.0205147766,
+        "40": 0.024096909,
+        "41": 0.0245300414,
+        "42": 0.0248166162
+    },
+    "top derived_features": {
+        "39": "[['15_TEXTCHARCNN_TE:tweet.0', 1.0], ['15_TEXTCHARCNN_TE:tweet.2', 0.876293957233429], ['15_TEXTCHARCNN_TE:tweet.1', 0.4105626940727234]]",
+        "40": "[['14_TEXTBIGRU_TE:tweet.1', 1.0], ['1_Txt:tweet.4', 0.7529793977737427], ['1_Txt:tweet.3', 0.6119831204414368]]",
+        "41": "[['1_Txt:tweet.4', 1.0], ['1_Txt:tweet.5', 0.7986788153648376], ['1_Txt:tweet.3', 0.7580629587173462]]",
+        "42": "[['1_Txt:tweet.4', 1.0], ['1_Txt:tweet.3', 0.7978666424751282], ['1_Txt:tweet.5', 0.7678977251052856]]"
+    },
+    "top original_features": {
+        "39": "[['tweet', 1.0]]",
+        "40": "[['tweet', 1.0]]",
+        "41": "[['tweet', 1.0]]",
+        "42": "[['tweet', 1.0]]"
+    },
+    "training_times": {
+        "39": 2.1214888096,
+        "40": 4.8540596962,
+        "41": 4.197571516,
+        "42": 5.9927589893
+    },
+    "best_iterations": {
+        "39": 37,
+        "40": 104,
+        "41": 160,
+        "42": 129
+    },
+    "last_3_mutation_try_actual_actions": {
+        "39": [
+            [
+                "add",
+                "add"
+            ],
+            [
+                "add",
+                "add"
+            ],
+            [
+                "prune",
+                "prune_2"
+            ]
+        ],
+        "40": [
+            [
+                "add_best",
+                "prune_by_features_3"
+            ],
+            [
+                "add_best",
+                "prune_3"
+            ],
+            [
+                "add_best",
+                "add_best"
+            ]
+        ],
+        "41": [
+            [
+                "add",
+                "add"
+            ],
+            [
+                "prune",
+                "prune_2"
+            ],
+            [
+                "add",
+                "add"
+            ]
+        ],
+        "42": [
+            [
+                "prune_by_features",
+                "prune_by_features_1"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "add_best",
+                "add_best"
+            ]
+        ]
+    },
+    "ngenes_start": {
+        "39": 3,
+        "40": 3,
+        "41": 3,
+        "42": 3
+    },
+    "ngenes_max": {
+        "39": 100,
+        "40": 100,
+        "41": 100,
+        "42": 100
+    },
+    "ngenes": {
+        "39": 1,
+        "40": 2,
+        "41": 3,
+        "42": 2
+    },
+    "ngenes_dead": {
+        "39": 14,
+        "40": 12,
+        "41": 15,
+        "42": 10
+    },
+    "nfeatures_max": {
+        "39": 100,
+        "40": 100,
+        "41": 100,
+        "42": 100
+    },
+    "nfeatures": {
+        "39": 3,
+        "40": 53,
+        "41": 54,
+        "42": 53
+    },
+    "feature_cost": {
+        "39": 3,
+        "40": 53,
+        "41": 54,
+        "42": 53
+    },
+    "model_name": {
+        "39": "LIGHTGBM",
+        "40": "LIGHTGBM",
+        "41": "LIGHTGBM",
+        "42": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "39": "NoneType",
+        "40": "NoneType",
+        "41": "NoneType",
+        "42": "NoneType"
+    },
+    "from_brain": {
+        "39": false,
+        "40": false,
+        "41": false,
+        "42": false
+    },
+    "derived_from_brain": {
+        "39": true,
+        "40": true,
+        "41": true,
+        "42": true
+    },
+    "from_brain_count": {
+        "39": 0,
+        "40": 0,
+        "41": 0,
+        "42": 0
+    },
+    "derived_from_brain_count": {
+        "39": 1,
+        "40": 1,
+        "41": 1,
+        "42": 1
+    },
+    "booster": {
+        "39": "lightgbm",
+        "40": "lightgbm",
+        "41": "lightgbm",
+        "42": "lightgbm"
+    },
+    "model_class_name": {
+        "39": "LightGBMModel",
+        "40": "LightGBMModel",
+        "41": "LightGBMModel",
+        "42": "LightGBMModel"
+    },
+    "n_gpus": {
+        "39": 0,
+        "40": 0,
+        "41": 0,
+        "42": 0
+    },
+    "gpu_id": {
+        "39": 0,
+        "40": 0,
+        "41": 0,
+        "42": 0
+    },
+    "n_jobs": {
+        "39": 4,
+        "40": 4,
+        "41": 4,
+        "42": 4
+    },
+    "num_classes": {
+        "39": 3,
+        "40": 3,
+        "41": 3,
+        "42": 3
+    },
+    "num_class": {
+        "39": 3,
+        "40": 3,
+        "41": 3,
+        "42": 3
+    },
+    "labels": {
+        "39": [
+            0,
+            1,
+            2
+        ],
+        "40": [
+            0,
+            1,
+            2
+        ],
+        "41": [
+            0,
+            1,
+            2
+        ],
+        "42": [
+            0,
+            1,
+            2
+        ]
+    },
+    "score_f_name": {
+        "39": "LOGLOSS",
+        "40": "LOGLOSS",
+        "41": "LOGLOSS",
+        "42": "LOGLOSS"
+    },
+    "random_state": {
+        "39": 290176261,
+        "40": 290176261,
+        "41": 290176261,
+        "42": 290176261
+    },
+    "time_column": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "tgc": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "pred_gap": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "pred_periods": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "target": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "n_estimators": {
+        "39": 600,
+        "40": 600,
+        "41": 600,
+        "42": 600
+    },
+    "learning_rate": {
+        "39": 0.05,
+        "40": 0.05,
+        "41": 0.05,
+        "42": 0.05
+    },
+    "early_stopping_rounds": {
+        "39": 30,
+        "40": 30,
+        "41": 30,
+        "42": 30
+    },
+    "reg_alpha": {
+        "39": 0.0,
+        "40": 0.0,
+        "41": 0.0,
+        "42": 0.0
+    },
+    "reg_lambda": {
+        "39": 2.0,
+        "40": 0.5,
+        "41": 0.5,
+        "42": 10.0
+    },
+    "gamma": {
+        "39": 0.001,
+        "40": 0.0,
+        "41": 0.01,
+        "42": 0.0
+    },
+    "max_bin": {
+        "39": 64,
+        "40": 128,
+        "41": 128,
+        "42": 64
+    },
+    "scale_pos_weight": {
+        "39": 1.0,
+        "40": 1.0,
+        "41": 1.0,
+        "42": 1.0
+    },
+    "max_delta_step": {
+        "39": 0.0,
+        "40": 0.0,
+        "41": 0.0,
+        "42": 0.0
+    },
+    "min_child_weight": {
+        "39": 1,
+        "40": 1,
+        "41": 1,
+        "42": 1
+    },
+    "subsample": {
+        "39": 0.8,
+        "40": 0.8,
+        "41": 0.8,
+        "42": 0.8
+    },
+    "subsample_freq": {
+        "39": 20,
+        "40": 5,
+        "41": 5,
+        "42": 5
+    },
+    "colsample_bytree": {
+        "39": 0.6,
+        "40": 0.4,
+        "41": 0.4,
+        "42": 0.4
+    },
+    "tree_method": {
+        "39": "hist",
+        "40": "hist",
+        "41": "hist",
+        "42": "hist"
+    },
+    "grow_policy": {
+        "39": "lossguide",
+        "40": "lossguide",
+        "41": "lossguide",
+        "42": "depthwise"
+    },
+    "max_leaves": {
+        "39": 8,
+        "40": 16,
+        "41": 8,
+        "42": 0
+    },
+    "max_depth": {
+        "39": 0,
+        "40": 0,
+        "41": 0,
+        "42": 6
+    },
+    "min_data_in_bin": {
+        "39": 5,
+        "40": 3,
+        "41": 3,
+        "42": 1
+    },
+    "min_child_samples": {
+        "39": 10,
+        "40": 10,
+        "41": 10,
+        "42": 1
+    },
+    "boosting_type": {
+        "39": "gbdt",
+        "40": "gbdt",
+        "41": "gbdt",
+        "42": "gbdt"
+    },
+    "enable_early_stopping_rounds": {
+        "39": true,
+        "40": true,
+        "41": true,
+        "42": true
+    },
+    "objective": {
+        "39": "multi:softprob",
+        "40": "multi:softprob",
+        "41": "multi:softprob",
+        "42": "multi:softprob"
+    },
+    "eval_metric": {
+        "39": "mlogloss",
+        "40": "mlogloss",
+        "41": "mlogloss",
+        "42": "mlogloss"
+    },
+    "monotonicity_constraints": {
+        "39": false,
+        "40": false,
+        "41": false,
+        "42": false
+    },
+    "silent": {
+        "39": true,
+        "40": true,
+        "41": true,
+        "42": true
+    },
+    "seed": {
+        "39": 290176261,
+        "40": 290176261,
+        "41": 290176261,
+        "42": 290176261
+    },
+    "disable_gpus": {
+        "39": true,
+        "40": true,
+        "41": true,
+        "42": true
+    },
+    "lossguide": {
+        "39": false,
+        "40": false,
+        "41": false,
+        "42": false
+    },
+    "dummy": {
+        "39": false,
+        "40": false,
+        "41": false,
+        "42": false
+    },
+    "ensemble_level": {
+        "39": 1,
+        "40": 1,
+        "41": 1,
+        "42": 1
+    },
+    "train_shape": {
+        "39": [
+            1842,
+            2
+        ],
+        "40": [
+            1842,
+            2
+        ],
+        "41": [
+            1842,
+            2
+        ],
+        "42": [
+            1842,
+            2
+        ]
+    },
+    "valid_shape": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "model_origin": {
+        "39": "DefaultIndiv: do_te:False,interp:11,depth:6,num_as_cat:False",
+        "40": "DefaultIndiv: do_te:False,interp:11,depth:6,num_as_cat:False",
+        "41": "DefaultIndiv: do_te:False,interp:11,depth:6,num_as_cat:False",
+        "42": "DefaultIndiv: do_te:False,interp:11,depth:6,num_as_cat:False"
+    },
+    "early_stopping_threshold": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "debug_verbose": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "epochs": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "add_wide": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "add_attention": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "layers": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "activation": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "batch_size": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "chunk_size": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "dropout": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "strategy": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "l1": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "l2": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "ort_loss": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "ort_loss_tau": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "normalize_type": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "best_learning_rate": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "task": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    },
+    "experiment_id": {
+        "39": "",
+        "40": "",
+        "41": "",
+        "42": ""
+    }
+}{
+    "indiv_id": {
+        "43": 3,
+        "44": 4,
+        "45": 7,
+        "46": 8
+    },
+    "iter_num": {
+        "43": 32,
+        "44": 32,
+        "45": 32,
+        "46": 32
+    },
+    "accuracy": {
+        "43": 7,
+        "44": 7,
+        "45": 7,
+        "46": 7
+    },
+    "time_tolerance": {
+        "43": 2,
+        "44": 2,
+        "45": 2,
+        "46": 2
+    },
+    "interpretability": {
+        "43": 8,
+        "44": 8,
+        "45": 8,
+        "46": 8
+    },
+    "score": {
+        "43": 0.8712145486,
+        "44": 0.8667387281,
+        "45": 0.8464896474,
+        "46": 0.8416692526
+    },
+    "tournament_score": {
+        "43": 0.8712145486,
+        "44": 0.8667387281,
+        "45": 0.8464896474,
+        "46": 0.8416692526
+    },
+    "score_sd": {
+        "43": 0.026297819,
+        "44": 0.0254016762,
+        "45": 0.0273308954,
+        "46": 0.0270293494
+    },
+    "top derived_features": {
+        "43": "[['1_Txt:tweet.4', 1.0], ['21_TEXTBIGRU_TE:tweet.1', 0.992968738079071], ['1_Txt:tweet.5', 0.8357216715812683]]",
+        "44": "[['1_Txt:tweet.4', 1.0], ['21_TEXTBIGRU_TE:tweet.1', 0.9469418525695801], ['1_Txt:tweet.5', 0.7902687191963196]]",
+        "45": "[['10_TEXTCNN_TE:tweet.1', 1.0], ['10_TEXTCNN_TE:tweet.2', 0.8135812878608704], ['10_TEXTCNN_TE:tweet.0', 0.6923540830612183]]",
+        "46": "[['10_TEXTCNN_TE:tweet.1', 1.0], ['10_TEXTCNN_TE:tweet.2', 0.7570304274559021], ['10_TEXTCNN_TE:tweet.0', 0.6709195971488953]]"
+    },
+    "top original_features": {
+        "43": "[['tweet', 1.0]]",
+        "44": "[['tweet', 1.0]]",
+        "45": "[['tweet', 1.0]]",
+        "46": "[['tweet', 1.0]]"
+    },
+    "training_times": {
+        "43": 7.6205363274,
+        "44": 7.8438489437,
+        "45": 9.0391101837,
+        "46": 7.3507225513
+    },
+    "best_iterations": {
+        "43": 124,
+        "44": 106,
+        "45": 105,
+        "46": 132
+    },
+    "last_3_mutation_try_actual_actions": {
+        "43": [
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "add",
+                "add"
+            ]
+        ],
+        "44": [
+            [
+                "prune_by_features",
+                "prune_by_features_1"
+            ],
+            [
+                "add_best",
+                "add_best"
+            ],
+            [
+                "add_best",
+                "add_best"
+            ]
+        ],
+        "45": [
+            [
+                "add_best",
+                "add_best"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "prune_by_features",
+                "prune_by_features_1"
+            ]
+        ],
+        "46": [
+            [
+                "add",
+                "add"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "prune_by_features",
+                "prune_by_features_2"
+            ]
+        ]
+    },
+    "ngenes_start": {
+        "43": 3,
+        "44": 3,
+        "45": 3,
+        "46": 3
+    },
+    "ngenes_max": {
+        "43": 100,
+        "44": 100,
+        "45": 100,
+        "46": 100
+    },
+    "ngenes": {
+        "43": 3,
+        "44": 3,
+        "45": 3,
+        "46": 3
+    },
+    "ngenes_dead": {
+        "43": 16,
+        "44": 17,
+        "45": 8,
+        "46": 10
+    },
+    "nfeatures_max": {
+        "43": 100,
+        "44": 100,
+        "45": 100,
+        "46": 100
+    },
+    "nfeatures": {
+        "43": 56,
+        "44": 56,
+        "45": 56,
+        "46": 56
+    },
+    "feature_cost": {
+        "43": 56,
+        "44": 56,
+        "45": 56,
+        "46": 56
+    },
+    "model_name": {
+        "43": "LIGHTGBM",
+        "44": "LIGHTGBM",
+        "45": "LIGHTGBM",
+        "46": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "43": "NoneType",
+        "44": "NoneType",
+        "45": "NoneType",
+        "46": "NoneType"
+    },
+    "from_brain": {
+        "43": false,
+        "44": false,
+        "45": false,
+        "46": false
+    },
+    "derived_from_brain": {
+        "43": true,
+        "44": true,
+        "45": true,
+        "46": true
+    },
+    "from_brain_count": {
+        "43": 0,
+        "44": 0,
+        "45": 0,
+        "46": 0
+    },
+    "derived_from_brain_count": {
+        "43": 1,
+        "44": 1,
+        "45": 1,
+        "46": 1
+    },
+    "booster": {
+        "43": "lightgbm",
+        "44": "lightgbm",
+        "45": "lightgbm",
+        "46": "lightgbm"
+    },
+    "model_class_name": {
+        "43": "LightGBMModel",
+        "44": "LightGBMModel",
+        "45": "LightGBMModel",
+        "46": "LightGBMModel"
+    },
+    "n_gpus": {
+        "43": 0,
+        "44": 0,
+        "45": 0,
+        "46": 0
+    },
+    "gpu_id": {
+        "43": 0,
+        "44": 0,
+        "45": 0,
+        "46": 0
+    },
+    "n_jobs": {
+        "43": 4,
+        "44": 4,
+        "45": 4,
+        "46": 4
+    },
+    "num_classes": {
+        "43": 3,
+        "44": 3,
+        "45": 3,
+        "46": 3
+    },
+    "num_class": {
+        "43": 3,
+        "44": 3,
+        "45": 3,
+        "46": 3
+    },
+    "labels": {
+        "43": [
+            0,
+            1,
+            2
+        ],
+        "44": [
+            0,
+            1,
+            2
+        ],
+        "45": [
+            0,
+            1,
+            2
+        ],
+        "46": [
+            0,
+            1,
+            2
+        ]
+    },
+    "score_f_name": {
+        "43": "LOGLOSS",
+        "44": "LOGLOSS",
+        "45": "LOGLOSS",
+        "46": "LOGLOSS"
+    },
+    "random_state": {
+        "43": 290176261,
+        "44": 290176261,
+        "45": 290176261,
+        "46": 290176261
+    },
+    "time_column": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "tgc": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "pred_gap": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "pred_periods": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "target": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "n_estimators": {
+        "43": 600,
+        "44": 600,
+        "45": 600,
+        "46": 600
+    },
+    "learning_rate": {
+        "43": 0.05,
+        "44": 0.05,
+        "45": 0.05,
+        "46": 0.05
+    },
+    "early_stopping_rounds": {
+        "43": 30,
+        "44": 30,
+        "45": 30,
+        "46": 30
+    },
+    "reg_alpha": {
+        "43": 0.0,
+        "44": 0.0,
+        "45": 0.0,
+        "46": 0.0
+    },
+    "reg_lambda": {
+        "43": 2.0,
+        "44": 5.0,
+        "45": 2.0,
+        "46": 2.0
+    },
+    "gamma": {
+        "43": 0.0,
+        "44": 0.001,
+        "45": 0.01,
+        "46": 0.001
+    },
+    "max_bin": {
+        "43": 64,
+        "44": 64,
+        "45": 128,
+        "46": 256
+    },
+    "scale_pos_weight": {
+        "43": 1.0,
+        "44": 1.0,
+        "45": 1.0,
+        "46": 1.0
+    },
+    "max_delta_step": {
+        "43": 0.0,
+        "44": 0.0,
+        "45": 0.0,
+        "46": 0.0
+    },
+    "min_child_weight": {
+        "43": 1,
+        "44": 1,
+        "45": 1,
+        "46": 1
+    },
+    "subsample": {
+        "43": 0.5,
+        "44": 0.7,
+        "45": 0.5,
+        "46": 0.5
+    },
+    "subsample_freq": {
+        "43": 1,
+        "44": 5,
+        "45": 20,
+        "46": 10
+    },
+    "colsample_bytree": {
+        "43": 0.55,
+        "44": 0.45,
+        "45": 0.35,
+        "46": 0.3
+    },
+    "tree_method": {
+        "43": "hist",
+        "44": "hist",
+        "45": "hist",
+        "46": "hist"
+    },
+    "grow_policy": {
+        "43": "depthwise",
+        "44": "depthwise",
+        "45": "lossguide",
+        "46": "lossguide"
+    },
+    "max_leaves": {
+        "43": 0,
+        "44": 0,
+        "45": 128,
+        "46": 32
+    },
+    "max_depth": {
+        "43": 9,
+        "44": 8,
+        "45": 0,
+        "46": 0
+    },
+    "min_data_in_bin": {
+        "43": 3,
+        "44": 1,
+        "45": 3,
+        "46": 1
+    },
+    "min_child_samples": {
+        "43": 1,
+        "44": 1,
+        "45": 1,
+        "46": 10
+    },
+    "boosting_type": {
+        "43": "gbdt",
+        "44": "gbdt",
+        "45": "gbdt",
+        "46": "gbdt"
+    },
+    "enable_early_stopping_rounds": {
+        "43": true,
+        "44": true,
+        "45": true,
+        "46": true
+    },
+    "objective": {
+        "43": "multi:softprob",
+        "44": "multi:softprob",
+        "45": "multi:softprob",
+        "46": "multi:softprob"
+    },
+    "eval_metric": {
+        "43": "mlogloss",
+        "44": "mlogloss",
+        "45": "mlogloss",
+        "46": "mlogloss"
+    },
+    "monotonicity_constraints": {
+        "43": false,
+        "44": false,
+        "45": false,
+        "46": false
+    },
+    "silent": {
+        "43": true,
+        "44": true,
+        "45": true,
+        "46": true
+    },
+    "seed": {
+        "43": 290176261,
+        "44": 290176261,
+        "45": 290176261,
+        "46": 290176261
+    },
+    "disable_gpus": {
+        "43": true,
+        "44": true,
+        "45": true,
+        "46": true
+    },
+    "lossguide": {
+        "43": false,
+        "44": false,
+        "45": false,
+        "46": false
+    },
+    "dummy": {
+        "43": false,
+        "44": false,
+        "45": false,
+        "46": false
+    },
+    "ensemble_level": {
+        "43": 1,
+        "44": 1,
+        "45": 1,
+        "46": 1
+    },
+    "train_shape": {
+        "43": [
+            1842,
+            2
+        ],
+        "44": [
+            1842,
+            2
+        ],
+        "45": [
+            1842,
+            2
+        ],
+        "46": [
+            1842,
+            2
+        ]
+    },
+    "valid_shape": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "model_origin": {
+        "43": "DefaultIndiv: do_te:False,interp:11,depth:6,num_as_cat:False",
+        "44": "DefaultIndiv: do_te:False,interp:11,depth:6,num_as_cat:False",
+        "45": "DefaultIndiv: do_te:False,interp:11,depth:6,num_as_cat:False",
+        "46": "DefaultIndiv: do_te:False,interp:11,depth:6,num_as_cat:False"
+    },
+    "early_stopping_threshold": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "debug_verbose": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "epochs": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "add_wide": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "add_attention": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "layers": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "activation": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "batch_size": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "chunk_size": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "dropout": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "strategy": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "l1": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "l2": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "ort_loss": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "ort_loss_tau": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "normalize_type": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "best_learning_rate": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "task": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    },
+    "experiment_id": {
+        "43": "",
+        "44": "",
+        "45": "",
+        "46": ""
+    }
+}

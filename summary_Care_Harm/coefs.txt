@@ -1,0 +1,57 @@
+Coefficient,Standard Deviation of Coefficient,Description,Feature
+3.518843,0.2212723,"Predicted probabilities of class #1 based on TEXTCNN model on text column ['tweet'] (embeddings trained from scratch), trained for 2 epochs",10_TEXTCNN_TE:tweet.0
+5.789512,0.0859314,"Predicted probabilities of class #2 based on TEXTCNN model on text column ['tweet'] (embeddings trained from scratch), trained for 2 epochs",10_TEXTCNN_TE:tweet.1
+3.422135,0.09415825,"Predicted probabilities of class #3 based on TEXTCNN model on text column ['tweet'] (embeddings trained from scratch), trained for 2 epochs",10_TEXTCNN_TE:tweet.2
+1.503464,0.06253199,Feature #1 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.0
+0.8975841,0.04567478,Feature #2 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.1
+0.8045357,0.05658418,Feature #11 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.10
+1.057548,0.1063765,Feature #12 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.11
+1.451747,0.08026198,Feature #13 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.12
+1.153528,0.05409448,Feature #14 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.13
+1.715062,0.1512502,Feature #15 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.14
+0.9467728,0.03020695,Feature #16 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.15
+1.489878,0.1442497,Feature #17 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.16
+0.9195085,0.04336163,Feature #18 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.17
+0.7708535,0.06576864,Feature #19 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.18
+1.038657,0.08742825,Feature #20 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.19
+1.439219,0.04409905,Feature #3 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.2
+1.124709,0.09218599,Feature #21 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.20
+0.9227963,0.07826355,Feature #22 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.21
+1.526401,0.07438156,Feature #23 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.22
+1.161362,0.04629306,Feature #24 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.23
+1.23074,0.07394978,Feature #25 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.24
+1.024413,0.1165986,Feature #26 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.25
+1.005888,0.0649792,Feature #27 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.26
+1.109335,0.06310652,Feature #28 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.27
+1.199889,0.08095197,Feature #29 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.28
+1.145037,0.08015901,Feature #30 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.29
+2.104091,0.08461989,Feature #4 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.3
+0.7954172,0.04277209,Feature #31 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.30
+1.086989,0.08141718,Feature #32 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.31
+0.7706669,0.02608552,Feature #33 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.32
+1.043275,0.1131393,Feature #34 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.33
+0.9537887,0.05731609,Feature #35 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.34
+0.9983745,0.06592605,Feature #36 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.35
+0.9390326,0.05113737,Feature #37 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.36
+1.205772,0.09311219,Feature #38 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.37
+0.8990104,0.07896186,Feature #39 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.38
+0.7458947,0.04649777,Feature #40 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.39
+2.882268,0.1224574,Feature #5 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.4
+1.384211,0.1424947,Feature #41 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.40
+1.269902,0.1000555,Feature #42 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.41
+0.9341981,0.05441399,Feature #43 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.42
+0.7919819,0.05686049,Feature #44 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.43
+0.9154021,0.02932402,Feature #45 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.44
+0.9123228,0.0412376,Feature #46 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.45
+0.9552,0.08937582,Feature #47 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.46
+0.9154529,0.08294418,Feature #48 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.47
+0.6537278,0.02639802,Feature #49 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.48
+0.8860592,0.04726135,Feature #50 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.49
+2.221967,0.0983604,Feature #6 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.5
+1.143336,0.08139504,Feature #7 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.6
+1.104836,0.053123,Feature #8 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.7
+1.07917,0.09323922,Feature #9 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.8
+0.7697254,0.02326052,Feature #10 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet',1_Txt:tweet.9
+1.23485,0.04647024,"Predicted probabilities of class #1 based on TEXTBIGRU model on text column ['tweet'] (embeddings trained from scratch), trained for 2 epochs",9_TEXTBIGRU_TE:tweet.0
+2.608358,0.2141697,"Predicted probabilities of class #2 based on TEXTBIGRU model on text column ['tweet'] (embeddings trained from scratch), trained for 2 epochs",9_TEXTBIGRU_TE:tweet.1
+1.048639,0.04184249,"Predicted probabilities of class #3 based on TEXTBIGRU model on text column ['tweet'] (embeddings trained from scratch), trained for 2 epochs",9_TEXTBIGRU_TE:tweet.2

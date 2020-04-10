@@ -1,0 +1,57 @@
+Coefficient,Shift of Coefficient,Description,Feature
+1.722097,-1.796745,"Predicted probabilities of class #1 based on TEXTCNN model on text column ['tweet'] (embeddings trained from scratch), trained for 2 epochs",10_TEXTCNN_TE:tweet.0
+3,-2.789512,"Predicted probabilities of class #2 based on TEXTCNN model on text column ['tweet'] (embeddings trained from scratch), trained for 2 epochs",10_TEXTCNN_TE:tweet.1
+1.430968,-1.991167,"Predicted probabilities of class #3 based on TEXTCNN model on text column ['tweet'] (embeddings trained from scratch), trained for 2 epochs",10_TEXTCNN_TE:tweet.2
+0.7034482,-0.800016,"Feature #1 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.0
+0.6224048,-0.2751793,"Feature #2 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.1
+0.5185769,-0.2859588,"Feature #11 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.10
+0.4677179,-0.5898297,"Feature #12 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.11
+0.7242162,-0.727531,"Feature #13 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.12
+0.57301,-0.5805181,"Feature #14 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.13
+1.055597,-0.6594648,"Feature #15 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.14
+0.4800054,-0.4667674,"Feature #16 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.15
+0.7607644,-0.7291138,"Feature #17 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.16
+0.5971469,-0.3223616,"Feature #18 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.17
+0.3698462,-0.4010074,"Feature #19 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.18
+0.7387601,-0.2998971,"Feature #20 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.19
+0.6879809,-0.751238,"Feature #3 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.2
+0.4574511,-0.6672574,"Feature #21 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.20
+0.5032289,-0.4195674,"Feature #22 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.21
+0.6359823,-0.8904187,"Feature #23 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.22
+0.5939525,-0.5674096,"Feature #24 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.23
+0.8331852,-0.3975544,"Feature #25 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.24
+0.443053,-0.58136,"Feature #26 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.25
+0.3124202,-0.6934677,"Feature #27 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.26
+0.6966845,-0.4126505,"Feature #28 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.27
+0.7801431,-0.4197457,"Feature #29 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.28
+0.6873356,-0.4577014,"Feature #30 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.29
+1.323607,-0.7804841,"Feature #4 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.3
+0.4879212,-0.3074961,"Feature #31 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.30
+0.7217745,-0.3652148,"Feature #32 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.31
+0.4738718,-0.2967951,"Feature #33 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.32
+0.6992669,-0.3440078,"Feature #34 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.33
+0.4672633,-0.4865254,"Feature #35 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.34
+0.3265697,-0.6718048,"Feature #36 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.35
+0.5014903,-0.4375423,"Feature #37 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.36
+0.6285436,-0.5772285,"Feature #38 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.37
+0.5978475,-0.3011629,"Feature #39 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.38
+0.3964828,-0.349412,"Feature #40 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.39
+1.690946,-1.191322,"Feature #5 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.4
+1.076398,-0.3078123,"Feature #41 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.40
+0.5724295,-0.6974725,"Feature #42 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.41
+0.6472467,-0.2869514,"Feature #43 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.42
+0.3986381,-0.3933437,"Feature #44 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.43
+0.461855,-0.4535471,"Feature #45 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.44
+0.6884243,-0.2238985,"Feature #46 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.45
+0.3760124,-0.5791876,"Feature #47 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.46
+0.5884423,-0.3270106,"Feature #48 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.47
+0.331228,-0.3224998,"Feature #49 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.48
+0.4394348,-0.4466244,"Feature #50 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.49
+1.229184,-0.9927832,"Feature #6 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.5
+0.870528,-0.272808,"Feature #7 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.6
+0.6678435,-0.4369929,"Feature #8 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.7
+0.7144331,-0.3647368,"Feature #9 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.8
+0.27715,-0.4925755,"Feature #10 of tf-idf-based word embedding  (followed by dimensionality reduction to 50 dimensions) of 'tweet' [internal:(True, 1, 50)]",1_Txt:tweet.9
+0.9059429,-0.3289075,"Predicted probabilities of class #1 based on TEXTBIGRU model on text column ['tweet'] (embeddings trained from scratch), trained for 2 epochs",9_TEXTBIGRU_TE:tweet.0
+1.977634,-0.630724,"Predicted probabilities of class #2 based on TEXTBIGRU model on text column ['tweet'] (embeddings trained from scratch), trained for 2 epochs",9_TEXTBIGRU_TE:tweet.1
+0.9393077,-0.1093313,"Predicted probabilities of class #3 based on TEXTBIGRU model on text column ['tweet'] (embeddings trained from scratch), trained for 2 epochs",9_TEXTBIGRU_TE:tweet.2

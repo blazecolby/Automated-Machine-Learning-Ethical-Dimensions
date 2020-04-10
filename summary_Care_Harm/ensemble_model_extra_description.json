@@ -1,0 +1,17 @@
+{
+    "Individual": {
+        "0": 0
+    },
+    "Model": {
+        "0": "LIGHTGBM"
+    },
+    "do_te": {
+        "0": false
+    },
+    "num_as_cat": {
+        "0": false
+    },
+    "interpretability": {
+        "0": 8
+    }
+}
