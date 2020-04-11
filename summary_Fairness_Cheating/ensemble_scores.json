@@ -1,0 +1,74 @@
+{
+    "Optimized": {
+        "MCC": "",
+        "MACROAUC": "",
+        "GINI": "",
+        "F2": "",
+        "F1": "",
+        "F05": "",
+        "AUCPR": "",
+        "AUC": "",
+        "ACCURACY": "",
+        "LOGLOSS": "*"
+    },
+    "Better score is": {
+        "MCC": "higher",
+        "MACROAUC": "higher",
+        "GINI": "higher",
+        "F2": "higher",
+        "F1": "higher",
+        "F05": "higher",
+        "AUCPR": "higher",
+        "AUC": "higher",
+        "ACCURACY": "higher",
+        "LOGLOSS": "lower"
+    },
+    "Final ensemble scores on validation (internal or external holdout(s)) data": {
+        "MCC": "0.4549346",
+        "MACROAUC": "0.7461039",
+        "GINI": "0.6150318",
+        "F2": "0.7142857",
+        "F1": "0.6366231",
+        "F05": "0.6366231",
+        "AUCPR": "0.6825241",
+        "AUC": "0.8075159",
+        "ACCURACY": "0.6366231",
+        "LOGLOSS": "0.8318639"
+    },
+    "Final ensemble standard deviation on validation (internal or external holdout(s)) data": {
+        "MCC": "0.02662634",
+        "MACROAUC": "0.01708697",
+        "GINI": "0.02528754",
+        "F2": "0",
+        "F1": "0.01775089",
+        "F05": "0.01775089",
+        "AUCPR": "0.020065",
+        "AUC": "0.01264377",
+        "ACCURACY": "0.01775089",
+        "LOGLOSS": "0.0255284"
+    },
+    "Final test scores": {
+        "MCC": "0.4189873",
+        "MACROAUC": "0.7394402",
+        "GINI": "0.5730187",
+        "F2": "0.7142857",
+        "F1": "0.6126582",
+        "F05": "0.6126582",
+        "AUCPR": "0.6571617",
+        "AUC": "0.7865094",
+        "ACCURACY": "0.6126582",
+        "LOGLOSS": "0.8716909"
+    },
+    "Final test standard deviation": {
+        "MCC": "0.02662634",
+        "MACROAUC": "0.01708697",
+        "GINI": "0.02639677",
+        "F2": "0",
+        "F1": "0.01775089",
+        "F05": "0.01775089",
+        "AUCPR": "0.020065",
+        "AUC": "0.01319838",
+        "ACCURACY": "0.01775089",
+        "LOGLOSS": "0.0255284"
+    }
+}
