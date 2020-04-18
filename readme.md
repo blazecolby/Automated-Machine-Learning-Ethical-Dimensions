@@ -61,7 +61,7 @@
     -v `pwd`/tmp:/tmp \
     h2oai/dai-centos7-x86_64:1.8.5.1-cuda10.0.64
   ```
-- ```chmod +x scripts.sh```
+- ```chmod +x scripts/start.sh```
 - ```sudo ./scripts/start.sh```
 - Navigate to ```http://Your-Driverless-AI-Host-Machine:12345```
 
