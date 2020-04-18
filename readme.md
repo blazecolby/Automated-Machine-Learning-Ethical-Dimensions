@@ -78,6 +78,7 @@
 ### Install Jupyter Lab
 - ```python3.6 -m pip install jupyterlab```
 - ```jupyter-lab --generate-config```
+- ```nano .jupyter/jupyter_notebook_config.py```
 - At the top paste:
   ```
   c = get_config()
