@@ -1,0 +1,74 @@
+{
+    "Optimized": {
+        "MCC": "",
+        "MACROAUC": "",
+        "GINI": "",
+        "F2": "",
+        "F1": "",
+        "F05": "",
+        "AUCPR": "",
+        "AUC": "",
+        "ACCURACY": "",
+        "LOGLOSS": "*"
+    },
+    "Better score is": {
+        "MCC": "higher",
+        "MACROAUC": "higher",
+        "GINI": "higher",
+        "F2": "higher",
+        "F1": "higher",
+        "F05": "higher",
+        "AUCPR": "higher",
+        "AUC": "higher",
+        "ACCURACY": "higher",
+        "LOGLOSS": "lower"
+    },
+    "Final ensemble scores on validation (internal or external holdout(s)) data": {
+        "MCC": "0.7780535",
+        "MACROAUC": "0.7115389",
+        "GINI": "0.8594759",
+        "F2": "0.8520357",
+        "F1": "0.8520357",
+        "F05": "0.8520357",
+        "AUCPR": "0.8726337",
+        "AUC": "0.9297379",
+        "ACCURACY": "0.8520357",
+        "LOGLOSS": "0.4790275"
+    },
+    "Final ensemble standard deviation on validation (internal or external holdout(s)) data": {
+        "MCC": "0.0209964",
+        "MACROAUC": "0.02700466",
+        "GINI": "0.01752022",
+        "F2": "0.0139976",
+        "F1": "0.0139976",
+        "F05": "0.0139976",
+        "AUCPR": "0.01593094",
+        "AUC": "0.00876011",
+        "ACCURACY": "0.0139976",
+        "LOGLOSS": "0.03345238"
+    },
+    "Final test scores": {
+        "MCC": "0.7474684",
+        "MACROAUC": "0.7350723",
+        "GINI": "0.84664",
+        "F2": "0.8316456",
+        "F1": "0.8316456",
+        "F05": "0.8316456",
+        "AUCPR": "0.8579291",
+        "AUC": "0.92332",
+        "ACCURACY": "0.8316456",
+        "LOGLOSS": "0.5055284"
+    },
+    "Final test standard deviation": {
+        "MCC": "0.0209964",
+        "MACROAUC": "0.02700466",
+        "GINI": "0.01752022",
+        "F2": "0.0139976",
+        "F1": "0.0139976",
+        "F05": "0.0139976",
+        "AUCPR": "0.01593094",
+        "AUC": "0.00876011",
+        "ACCURACY": "0.0139976",
+        "LOGLOSS": "0.03345238"
+    }
+}
