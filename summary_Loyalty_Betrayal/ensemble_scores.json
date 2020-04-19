@@ -1,0 +1,74 @@
+{
+    "Optimized": {
+        "MCC": "",
+        "MACROAUC": "",
+        "GINI": "",
+        "F2": "",
+        "F1": "",
+        "F05": "",
+        "AUCPR": "",
+        "AUC": "",
+        "ACCURACY": "",
+        "LOGLOSS": "*"
+    },
+    "Better score is": {
+        "MCC": "higher",
+        "MACROAUC": "higher",
+        "GINI": "higher",
+        "F2": "higher",
+        "F1": "higher",
+        "F05": "higher",
+        "AUCPR": "higher",
+        "AUC": "higher",
+        "ACCURACY": "higher",
+        "LOGLOSS": "lower"
+    },
+    "Final ensemble scores on validation (internal or external holdout(s)) data": {
+        "MCC": "0.5709862",
+        "MACROAUC": "0.6971962",
+        "GINI": "0.6774956",
+        "F2": "0.722123",
+        "F1": "0.7139908",
+        "F05": "0.7139908",
+        "AUCPR": "0.7172658",
+        "AUC": "0.8387478",
+        "ACCURACY": "0.7139908",
+        "LOGLOSS": "0.7536613"
+    },
+    "Final ensemble standard deviation on validation (internal or external holdout(s)) data": {
+        "MCC": "0.025771",
+        "MACROAUC": "0.03657793",
+        "GINI": "0.02941381",
+        "F2": "0.01020373",
+        "F1": "0.01718067",
+        "F05": "0.01718067",
+        "AUCPR": "0.03102233",
+        "AUC": "0.0147069",
+        "ACCURACY": "0.01718067",
+        "LOGLOSS": "0.03050526"
+    },
+    "Final test scores": {
+        "MCC": "0.6316456",
+        "MACROAUC": "0.7027999",
+        "GINI": "0.7354286",
+        "F2": "0.7544304",
+        "F1": "0.7544304",
+        "F05": "0.7544304",
+        "AUCPR": "0.7584824",
+        "AUC": "0.8677143",
+        "ACCURACY": "0.7544304",
+        "LOGLOSS": "0.6801303"
+    },
+    "Final test standard deviation": {
+        "MCC": "0.025771",
+        "MACROAUC": "0.03657793",
+        "GINI": "0.02941381",
+        "F2": "0.01594313",
+        "F1": "0.01718067",
+        "F05": "0.01718067",
+        "AUCPR": "0.03102233",
+        "AUC": "0.0147069",
+        "ACCURACY": "0.01718067",
+        "LOGLOSS": "0.03050526"
+    }
+}

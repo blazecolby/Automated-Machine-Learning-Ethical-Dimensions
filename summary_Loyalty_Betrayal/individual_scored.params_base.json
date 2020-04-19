@@ -1,0 +1,5988 @@
+{
+    "indiv_id": {
+        "0": 7
+    },
+    "iter_num": {
+        "0": 26
+    },
+    "accuracy": {
+        "0": 7
+    },
+    "time_tolerance": {
+        "0": 2
+    },
+    "interpretability": {
+        "0": 8
+    },
+    "score": {
+        "0": 0.7960375692
+    },
+    "tournament_score": {
+        "0": 0.7960375692
+    },
+    "score_sd": {
+        "0": 0.0295673775
+    },
+    "top derived_features": {
+        "0": "[['15_Txt:tweet.6', 1.0], ['15_Txt:tweet.4', 0.7893145680427551], ['15_Txt:tweet.5', 0.7774601578712463]]"
+    },
+    "top original_features": {
+        "0": "[['tweet', 1.0]]"
+    },
+    "training_times": {
+        "0": 5.6101996899
+    },
+    "best_iterations": {
+        "0": 43
+    },
+    "last_3_mutation_try_actual_actions": {
+        "0": []
+    },
+    "ngenes_start": {
+        "0": 5
+    },
+    "ngenes_max": {
+        "0": 100
+    },
+    "ngenes": {
+        "0": 5
+    },
+    "ngenes_dead": {
+        "0": 13
+    },
+    "nfeatures_max": {
+        "0": 100
+    },
+    "nfeatures": {
+        "0": 43
+    },
+    "feature_cost": {
+        "0": 43
+    },
+    "model_name": {
+        "0": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "0": "NoneType"
+    },
+    "from_brain": {
+        "0": false
+    },
+    "derived_from_brain": {
+        "0": false
+    },
+    "from_brain_count": {
+        "0": 0
+    },
+    "derived_from_brain_count": {
+        "0": 0
+    },
+    "booster": {
+        "0": "lightgbm"
+    },
+    "model_class_name": {
+        "0": "LightGBMModel"
+    },
+    "n_gpus": {
+        "0": 0
+    },
+    "gpu_id": {
+        "0": 0
+    },
+    "n_jobs": {
+        "0": 4
+    },
+    "num_classes": {
+        "0": 3
+    },
+    "num_class": {
+        "0": 3
+    },
+    "labels": {
+        "0": [
+            0,
+            1,
+            2
+        ]
+    },
+    "score_f_name": {
+        "0": "LOGLOSS"
+    },
+    "random_state": {
+        "0": 1006544132
+    },
+    "time_column": {
+        "0": ""
+    },
+    "tgc": {
+        "0": ""
+    },
+    "pred_gap": {
+        "0": ""
+    },
+    "pred_periods": {
+        "0": ""
+    },
+    "target": {
+        "0": ""
+    },
+    "n_estimators": {
+        "0": 600
+    },
+    "learning_rate": {
+        "0": 0.05
+    },
+    "reg_alpha": {
+        "0": 0.0
+    },
+    "reg_lambda": {
+        "0": 1.0
+    },
+    "gamma": {
+        "0": 0
+    },
+    "max_bin": {
+        "0": 256
+    },
+    "scale_pos_weight": {
+        "0": 1
+    },
+    "max_delta_step": {
+        "0": 0
+    },
+    "min_child_weight": {
+        "0": 1
+    },
+    "subsample": {
+        "0": 0.7
+    },
+    "subsample_freq": {
+        "0": 1
+    },
+    "colsample_bytree": {
+        "0": 0.8
+    },
+    "tree_method": {
+        "0": "hist"
+    },
+    "grow_policy": {
+        "0": "depthwise"
+    },
+    "max_leaves": {
+        "0": 0
+    },
+    "max_depth": {
+        "0": 6
+    },
+    "min_data_in_bin": {
+        "0": 1
+    },
+    "min_child_samples": {
+        "0": 1
+    },
+    "boosting_type": {
+        "0": "gbdt"
+    },
+    "enable_early_stopping_rounds": {
+        "0": true
+    },
+    "objective": {
+        "0": "multi:softprob"
+    },
+    "eval_metric": {
+        "0": "mlogloss"
+    },
+    "monotonicity_constraints": {
+        "0": false
+    },
+    "silent": {
+        "0": true
+    },
+    "seed": {
+        "0": 1006544132
+    },
+    "disable_gpus": {
+        "0": true
+    },
+    "lossguide": {
+        "0": false
+    },
+    "dummy": {
+        "0": false
+    },
+    "ensemble_level": {
+        "0": 1
+    },
+    "train_shape": {
+        "0": [
+            1842,
+            2
+        ]
+    },
+    "valid_shape": {
+        "0": ""
+    },
+    "model_origin": {
+        "0": "EXTRA_FS"
+    },
+    "best_learning_rate": {
+        "0": 0.05
+    },
+    "task": {
+        "0": {
+            "address": "http://127.0.0.1:12345",
+            "isMultinode": false,
+            "method": "on_experiment",
+            "server_cwd": "/opt/h2oai/dai"
+        }
+    },
+    "experiment_id": {
+        "0": "ca11b7ce-81b2-11ea-a595-0242ac110002"
+    },
+    "early_stopping_rounds": {
+        "0": 30
+    }
+}{
+    "indiv_id": {
+        "26": 1,
+        "27": 2,
+        "28": 6,
+        "29": 7
+    },
+    "iter_num": {
+        "26": 27,
+        "27": 27,
+        "28": 27,
+        "29": 27
+    },
+    "accuracy": {
+        "26": 7,
+        "27": 7,
+        "28": 7,
+        "29": 7
+    },
+    "time_tolerance": {
+        "26": 2,
+        "27": 2,
+        "28": 2,
+        "29": 2
+    },
+    "interpretability": {
+        "26": 8,
+        "27": 8,
+        "28": 8,
+        "29": 8
+    },
+    "score": {
+        "26": 0.7612067746,
+        "27": 0.7705758255,
+        "28": 0.8008140358,
+        "29": 0.7894485776
+    },
+    "tournament_score": {
+        "26": 0.7612067746,
+        "27": 0.7705758255,
+        "28": 0.8008140358,
+        "29": 0.7894485776
+    },
+    "score_sd": {
+        "26": 0.029698152,
+        "27": 0.0302296401,
+        "28": 0.0308751283,
+        "29": 0.0303239886
+    },
+    "top derived_features": {
+        "26": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['3_Txt:tweet.4', 0.5444679260253906], ['2_TEXTCNN_TE:tweet.2', 0.45324426889419556]]",
+        "27": "[['1_Txt:tweet.4', 1.0], ['1_Txt:tweet.7', 0.7109524607658386], ['1_Txt:tweet.5', 0.6723518967628479]]",
+        "28": "[['1_Txt:tweet.4', 1.0], ['1_Txt:tweet.7', 0.8143768310546875], ['1_Txt:tweet.5', 0.7402051091194153]]",
+        "29": "[['1_Txt:tweet.6', 1.0], ['1_Txt:tweet.5', 0.9765119552612305], ['1_Txt:tweet.4', 0.9555198550224304]]"
+    },
+    "top original_features": {
+        "26": "[['tweet', 1.0]]",
+        "27": "[['tweet', 1.0]]",
+        "28": "[['tweet', 1.0]]",
+        "29": "[['tweet', 1.0]]"
+    },
+    "training_times": {
+        "26": 4.6883602142,
+        "27": 5.9438121319,
+        "28": 7.2085387707,
+        "29": 3.9191589355
+    },
+    "best_iterations": {
+        "26": 50,
+        "27": 64,
+        "28": 33,
+        "29": 78
+    },
+    "last_3_mutation_try_actual_actions": {
+        "26": [
+            [
+                "add_best",
+                "prune_by_features_2"
+            ],
+            [
+                "add_best",
+                "prune_1"
+            ],
+            [
+                "prune",
+                "prune_1"
+            ]
+        ],
+        "27": [
+            [
+                "prune",
+                "prune_2"
+            ],
+            [
+                "add",
+                "add"
+            ]
+        ],
+        "28": [
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "prune",
+                "prune_2"
+            ]
+        ],
+        "29": [
+            [
+                "add_best",
+                "perturb_xgb"
+            ],
+            [
+                "add_best",
+                "prune_by_features_1"
+            ],
+            [
+                "add_best",
+                "prune_3"
+            ]
+        ]
+    },
+    "ngenes_start": {
+        "26": 5,
+        "27": 2,
+        "28": 2,
+        "29": 3
+    },
+    "ngenes_max": {
+        "26": 100,
+        "27": 100,
+        "28": 100,
+        "29": 100
+    },
+    "ngenes": {
+        "26": 3,
+        "27": 2,
+        "28": 1,
+        "29": 1
+    },
+    "ngenes_dead": {
+        "26": 3,
+        "27": 1,
+        "28": 1,
+        "29": 3
+    },
+    "nfeatures_max": {
+        "26": 100,
+        "27": 100,
+        "28": 100,
+        "29": 100
+    },
+    "nfeatures": {
+        "26": 56,
+        "27": 51,
+        "28": 50,
+        "29": 50
+    },
+    "feature_cost": {
+        "26": 56,
+        "27": 51,
+        "28": 50,
+        "29": 50
+    },
+    "model_name": {
+        "26": "LIGHTGBM",
+        "27": "LIGHTGBM",
+        "28": "LIGHTGBM",
+        "29": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "26": "NoneType",
+        "27": "NoneType",
+        "28": "NoneType",
+        "29": "NoneType"
+    },
+    "from_brain": {
+        "26": false,
+        "27": false,
+        "28": false,
+        "29": false
+    },
+    "derived_from_brain": {
+        "26": false,
+        "27": false,
+        "28": false,
+        "29": false
+    },
+    "from_brain_count": {
+        "26": 0,
+        "27": 0,
+        "28": 0,
+        "29": 0
+    },
+    "derived_from_brain_count": {
+        "26": 0,
+        "27": 0,
+        "28": 0,
+        "29": 0
+    },
+    "booster": {
+        "26": "lightgbm",
+        "27": "lightgbm",
+        "28": "lightgbm",
+        "29": "lightgbm"
+    },
+    "model_class_name": {
+        "26": "LightGBMModel",
+        "27": "LightGBMModel",
+        "28": "LightGBMModel",
+        "29": "LightGBMModel"
+    },
+    "n_gpus": {
+        "26": 0,
+        "27": 0,
+        "28": 0,
+        "29": 0
+    },
+    "gpu_id": {
+        "26": 0,
+        "27": 0,
+        "28": 0,
+        "29": 0
+    },
+    "n_jobs": {
+        "26": 4,
+        "27": 4,
+        "28": 4,
+        "29": 4
+    },
+    "num_classes": {
+        "26": 3,
+        "27": 3,
+        "28": 3,
+        "29": 3
+    },
+    "num_class": {
+        "26": 3,
+        "27": 3,
+        "28": 3,
+        "29": 3
+    },
+    "labels": {
+        "26": [
+            0,
+            1,
+            2
+        ],
+        "27": [
+            0,
+            1,
+            2
+        ],
+        "28": [
+            0,
+            1,
+            2
+        ],
+        "29": [
+            0,
+            1,
+            2
+        ]
+    },
+    "score_f_name": {
+        "26": "LOGLOSS",
+        "27": "LOGLOSS",
+        "28": "LOGLOSS",
+        "29": "LOGLOSS"
+    },
+    "random_state": {
+        "26": 1006544132,
+        "27": 1006544132,
+        "28": 1006544132,
+        "29": 1006544132
+    },
+    "time_column": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "tgc": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "pred_gap": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "pred_periods": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "target": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "n_estimators": {
+        "26": 600,
+        "27": 600,
+        "28": 600,
+        "29": 600
+    },
+    "learning_rate": {
+        "26": 0.05,
+        "27": 0.05,
+        "28": 0.05,
+        "29": 0.05
+    },
+    "early_stopping_rounds": {
+        "26": 30,
+        "27": 30,
+        "28": 30,
+        "29": 30
+    },
+    "reg_alpha": {
+        "26": 0.0,
+        "27": 0.0,
+        "28": 0.0,
+        "29": 0.0
+    },
+    "reg_lambda": {
+        "26": 2.0,
+        "27": 1.0,
+        "28": 0.5,
+        "29": 0.1
+    },
+    "gamma": {
+        "26": 0.0,
+        "27": 0.0,
+        "28": 0.1,
+        "29": 0.01
+    },
+    "max_bin": {
+        "26": 64,
+        "27": 256,
+        "28": 64,
+        "29": 64
+    },
+    "scale_pos_weight": {
+        "26": 1.0,
+        "27": 1.0,
+        "28": 1.0,
+        "29": 1.0
+    },
+    "max_delta_step": {
+        "26": 0.0,
+        "27": 0.0,
+        "28": 0.0,
+        "29": 0.0
+    },
+    "min_child_weight": {
+        "26": 1,
+        "27": 1,
+        "28": 1,
+        "29": 1
+    },
+    "subsample": {
+        "26": 0.8,
+        "27": 0.7,
+        "28": 0.8,
+        "29": 0.6
+    },
+    "subsample_freq": {
+        "26": 1,
+        "27": 1,
+        "28": 20,
+        "29": 10
+    },
+    "colsample_bytree": {
+        "26": 0.6,
+        "27": 0.8,
+        "28": 0.9,
+        "29": 0.2
+    },
+    "tree_method": {
+        "26": "hist",
+        "27": "hist",
+        "28": "hist",
+        "29": "hist"
+    },
+    "grow_policy": {
+        "26": "depthwise",
+        "27": "depthwise",
+        "28": "lossguide",
+        "29": "depthwise"
+    },
+    "max_leaves": {
+        "26": 0,
+        "27": 0,
+        "28": 1024,
+        "29": 0
+    },
+    "max_depth": {
+        "26": 8,
+        "27": 6,
+        "28": 0,
+        "29": 8
+    },
+    "min_data_in_bin": {
+        "26": 1,
+        "27": 1,
+        "28": 1,
+        "29": 5
+    },
+    "min_child_samples": {
+        "26": 1,
+        "27": 1,
+        "28": 1,
+        "29": 5
+    },
+    "boosting_type": {
+        "26": "gbdt",
+        "27": "gbdt",
+        "28": "gbdt",
+        "29": "gbdt"
+    },
+    "enable_early_stopping_rounds": {
+        "26": true,
+        "27": true,
+        "28": true,
+        "29": true
+    },
+    "objective": {
+        "26": "multi:softprob",
+        "27": "multi:softprob",
+        "28": "multi:softprob",
+        "29": "multi:softprob"
+    },
+    "eval_metric": {
+        "26": "mlogloss",
+        "27": "mlogloss",
+        "28": "mlogloss",
+        "29": "mlogloss"
+    },
+    "monotonicity_constraints": {
+        "26": false,
+        "27": false,
+        "28": false,
+        "29": false
+    },
+    "silent": {
+        "26": true,
+        "27": true,
+        "28": true,
+        "29": true
+    },
+    "seed": {
+        "26": 1006544132,
+        "27": 1006544132,
+        "28": 1006544132,
+        "29": 1006544132
+    },
+    "disable_gpus": {
+        "26": true,
+        "27": true,
+        "28": true,
+        "29": true
+    },
+    "lossguide": {
+        "26": false,
+        "27": false,
+        "28": false,
+        "29": false
+    },
+    "dummy": {
+        "26": false,
+        "27": false,
+        "28": false,
+        "29": false
+    },
+    "ensemble_level": {
+        "26": 1,
+        "27": 1,
+        "28": 1,
+        "29": 1
+    },
+    "train_shape": {
+        "26": [
+            1842,
+            2
+        ],
+        "27": [
+            1842,
+            2
+        ],
+        "28": [
+            1842,
+            2
+        ],
+        "29": [
+            1842,
+            2
+        ]
+    },
+    "valid_shape": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "model_origin": {
+        "26": "SEQUENCE",
+        "27": "DefaultIndiv: do_te:False,interp:11,depth:6,num_as_cat:False",
+        "28": "DefaultIndiv: do_te:only,interp:8,depth:10,num_as_cat:False",
+        "29": "RANDOM"
+    },
+    "early_stopping_threshold": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "debug_verbose": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "epochs": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "add_wide": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "add_attention": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "layers": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "activation": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "batch_size": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "chunk_size": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "dropout": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "strategy": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "l1": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "l2": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "ort_loss": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "ort_loss_tau": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "normalize_type": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "best_learning_rate": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "task": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    },
+    "experiment_id": {
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": ""
+    }
+}{
+    "indiv_id": {
+        "30": 1,
+        "31": 4,
+        "32": 5,
+        "33": 6
+    },
+    "iter_num": {
+        "30": 28,
+        "31": 28,
+        "32": 28,
+        "33": 28
+    },
+    "accuracy": {
+        "30": 7,
+        "31": 7,
+        "32": 7,
+        "33": 7
+    },
+    "time_tolerance": {
+        "30": 2,
+        "31": 2,
+        "32": 2,
+        "33": 2
+    },
+    "interpretability": {
+        "30": 8,
+        "31": 8,
+        "32": 8,
+        "33": 8
+    },
+    "score": {
+        "30": 0.7633184073,
+        "31": 0.7723744696,
+        "32": 0.7744883305,
+        "33": 0.7679609148
+    },
+    "tournament_score": {
+        "30": 0.7633184073,
+        "31": 0.7723744696,
+        "32": 0.7744883305,
+        "33": 0.7679609148
+    },
+    "score_sd": {
+        "30": 0.0290182845,
+        "31": 0.0270047195,
+        "32": 0.0294050754,
+        "33": 0.0294908275
+    },
+    "top derived_features": {
+        "30": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['3_Txt:tweet.4', 0.7378422617912292], ['2_TEXTCNN_TE:tweet.2', 0.7315595746040344]]",
+        "31": "[['1_Txt:tweet.4', 1.0], ['1_Txt:tweet.2', 0.6840983033180237], ['1_Txt:tweet.6', 0.6162923574447632]]",
+        "32": "[['2_TEXTBIGRU_TE:tweet.1', 1.0], ['1_Txt:tweet.4', 0.6521068215370178], ['1_Txt:tweet.7', 0.43855011463165283]]",
+        "33": "[['3_Txt:tweet.4', 1.0], ['3_Txt:tweet.5', 0.6905737519264221], ['3_Txt:tweet.3', 0.571605920791626]]"
+    },
+    "top original_features": {
+        "30": "[['tweet', 1.0]]",
+        "31": "[['tweet', 1.0]]",
+        "32": "[['tweet', 1.0]]",
+        "33": "[['tweet', 1.0]]"
+    },
+    "training_times": {
+        "30": 4.9139239788,
+        "31": 2.4086844921,
+        "32": 9.558816433,
+        "33": 3.8369195461
+    },
+    "best_iterations": {
+        "30": 80,
+        "31": 155,
+        "32": 36,
+        "33": 180
+    },
+    "last_3_mutation_try_actual_actions": {
+        "30": [
+            [
+                "add_best",
+                "prune_3"
+            ],
+            [
+                "add",
+                "add"
+            ],
+            [
+                "add",
+                "add"
+            ]
+        ],
+        "31": [
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "add_best",
+                "perturb_xgb"
+            ],
+            [
+                "add_best",
+                "prune_by_features_2"
+            ]
+        ],
+        "32": [
+            [
+                "prune_by_features",
+                "prune_by_features_1"
+            ],
+            [
+                "add",
+                "add"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ]
+        ],
+        "33": [
+            [
+                "prune",
+                "prune_2"
+            ],
+            [
+                "add_best",
+                "perturb_xgb"
+            ],
+            [
+                "add_best",
+                "prune_by_features_3"
+            ]
+        ]
+    },
+    "ngenes_start": {
+        "30": 5,
+        "31": 2,
+        "32": 2,
+        "33": 5
+    },
+    "ngenes_max": {
+        "30": 100,
+        "31": 100,
+        "32": 100,
+        "33": 100
+    },
+    "ngenes": {
+        "30": 4,
+        "31": 1,
+        "32": 3,
+        "33": 1
+    },
+    "ngenes_dead": {
+        "30": 3,
+        "31": 2,
+        "32": 0,
+        "33": 6
+    },
+    "nfeatures_max": {
+        "30": 100,
+        "31": 100,
+        "32": 100,
+        "33": 100
+    },
+    "nfeatures": {
+        "30": 57,
+        "31": 50,
+        "32": 56,
+        "33": 50
+    },
+    "feature_cost": {
+        "30": 57,
+        "31": 50,
+        "32": 56,
+        "33": 50
+    },
+    "model_name": {
+        "30": "LIGHTGBM",
+        "31": "LIGHTGBM",
+        "32": "LIGHTGBM",
+        "33": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "30": "NoneType",
+        "31": "NoneType",
+        "32": "NoneType",
+        "33": "NoneType"
+    },
+    "from_brain": {
+        "30": false,
+        "31": false,
+        "32": false,
+        "33": false
+    },
+    "derived_from_brain": {
+        "30": false,
+        "31": false,
+        "32": false,
+        "33": false
+    },
+    "from_brain_count": {
+        "30": 0,
+        "31": 0,
+        "32": 0,
+        "33": 0
+    },
+    "derived_from_brain_count": {
+        "30": 0,
+        "31": 0,
+        "32": 0,
+        "33": 0
+    },
+    "booster": {
+        "30": "lightgbm",
+        "31": "lightgbm",
+        "32": "lightgbm",
+        "33": "lightgbm"
+    },
+    "model_class_name": {
+        "30": "LightGBMModel",
+        "31": "LightGBMModel",
+        "32": "LightGBMModel",
+        "33": "LightGBMModel"
+    },
+    "n_gpus": {
+        "30": 0,
+        "31": 0,
+        "32": 0,
+        "33": 0
+    },
+    "gpu_id": {
+        "30": 0,
+        "31": 0,
+        "32": 0,
+        "33": 0
+    },
+    "n_jobs": {
+        "30": 4,
+        "31": 4,
+        "32": 4,
+        "33": 4
+    },
+    "num_classes": {
+        "30": 3,
+        "31": 3,
+        "32": 3,
+        "33": 3
+    },
+    "num_class": {
+        "30": 3,
+        "31": 3,
+        "32": 3,
+        "33": 3
+    },
+    "labels": {
+        "30": [
+            0,
+            1,
+            2
+        ],
+        "31": [
+            0,
+            1,
+            2
+        ],
+        "32": [
+            0,
+            1,
+            2
+        ],
+        "33": [
+            0,
+            1,
+            2
+        ]
+    },
+    "score_f_name": {
+        "30": "LOGLOSS",
+        "31": "LOGLOSS",
+        "32": "LOGLOSS",
+        "33": "LOGLOSS"
+    },
+    "random_state": {
+        "30": 1006544132,
+        "31": 1006544132,
+        "32": 1006544132,
+        "33": 1006544132
+    },
+    "time_column": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "tgc": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "pred_gap": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "pred_periods": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "target": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "n_estimators": {
+        "30": 600,
+        "31": 600,
+        "32": 600,
+        "33": 600
+    },
+    "learning_rate": {
+        "30": 0.05,
+        "31": 0.05,
+        "32": 0.05,
+        "33": 0.05
+    },
+    "early_stopping_rounds": {
+        "30": 30,
+        "31": 30,
+        "32": 30,
+        "33": 30
+    },
+    "reg_alpha": {
+        "30": 0.0,
+        "31": 0.0,
+        "32": 0.0,
+        "33": 0.0
+    },
+    "reg_lambda": {
+        "30": 5.0,
+        "31": 5.0,
+        "32": 1.0,
+        "33": 10.0
+    },
+    "gamma": {
+        "30": 0.0,
+        "31": 0.0,
+        "32": 10.0,
+        "33": 0.01
+    },
+    "max_bin": {
+        "30": 128,
+        "31": 128,
+        "32": 256,
+        "33": 64
+    },
+    "scale_pos_weight": {
+        "30": 1.0,
+        "31": 1.0,
+        "32": 1.0,
+        "33": 1.0
+    },
+    "max_delta_step": {
+        "30": 0.0,
+        "31": 0.0,
+        "32": 0.0,
+        "33": 0.0
+    },
+    "min_child_weight": {
+        "30": 1,
+        "31": 1,
+        "32": 1,
+        "33": 1
+    },
+    "subsample": {
+        "30": 0.5,
+        "31": 0.4,
+        "32": 0.7,
+        "33": 0.5
+    },
+    "subsample_freq": {
+        "30": 1,
+        "31": 5,
+        "32": 1,
+        "33": 1
+    },
+    "colsample_bytree": {
+        "30": 0.55,
+        "31": 0.3,
+        "32": 0.8,
+        "33": 0.6
+    },
+    "tree_method": {
+        "30": "hist",
+        "31": "hist",
+        "32": "hist",
+        "33": "hist"
+    },
+    "grow_policy": {
+        "30": "lossguide",
+        "31": "depthwise",
+        "32": "depthwise",
+        "33": "depthwise"
+    },
+    "max_leaves": {
+        "30": 32,
+        "31": 0,
+        "32": 0,
+        "33": 0
+    },
+    "max_depth": {
+        "30": 0,
+        "31": 3,
+        "32": 10,
+        "33": 5
+    },
+    "min_data_in_bin": {
+        "30": 10,
+        "31": 10,
+        "32": 1,
+        "33": 1
+    },
+    "min_child_samples": {
+        "30": 5,
+        "31": 10,
+        "32": 1,
+        "33": 5
+    },
+    "boosting_type": {
+        "30": "gbdt",
+        "31": "gbdt",
+        "32": "gbdt",
+        "33": "gbdt"
+    },
+    "enable_early_stopping_rounds": {
+        "30": true,
+        "31": true,
+        "32": true,
+        "33": true
+    },
+    "objective": {
+        "30": "multi:softprob",
+        "31": "multi:softprob",
+        "32": "multi:softprob",
+        "33": "multi:softprob"
+    },
+    "eval_metric": {
+        "30": "mlogloss",
+        "31": "mlogloss",
+        "32": "mlogloss",
+        "33": "mlogloss"
+    },
+    "monotonicity_constraints": {
+        "30": false,
+        "31": false,
+        "32": false,
+        "33": false
+    },
+    "silent": {
+        "30": true,
+        "31": true,
+        "32": true,
+        "33": true
+    },
+    "seed": {
+        "30": 1006544132,
+        "31": 1006544132,
+        "32": 1006544132,
+        "33": 1006544132
+    },
+    "disable_gpus": {
+        "30": true,
+        "31": true,
+        "32": true,
+        "33": true
+    },
+    "lossguide": {
+        "30": false,
+        "31": false,
+        "32": false,
+        "33": false
+    },
+    "dummy": {
+        "30": false,
+        "31": false,
+        "32": false,
+        "33": false
+    },
+    "ensemble_level": {
+        "30": 1,
+        "31": 1,
+        "32": 1,
+        "33": 1
+    },
+    "train_shape": {
+        "30": [
+            1842,
+            2
+        ],
+        "31": [
+            1842,
+            2
+        ],
+        "32": [
+            1842,
+            2
+        ],
+        "33": [
+            1842,
+            2
+        ]
+    },
+    "valid_shape": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "model_origin": {
+        "30": "SEQUENCE",
+        "31": "DefaultIndiv: do_te:False,interp:11,depth:6,num_as_cat:False",
+        "32": "DefaultIndiv: do_te:only,interp:8,depth:10,num_as_cat:False",
+        "33": "SEQUENCE"
+    },
+    "early_stopping_threshold": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "debug_verbose": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "epochs": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "add_wide": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "add_attention": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "layers": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "activation": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "batch_size": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "chunk_size": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "dropout": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "strategy": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "l1": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "l2": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "ort_loss": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "ort_loss_tau": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "normalize_type": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "best_learning_rate": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "task": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    },
+    "experiment_id": {
+        "30": "",
+        "31": "",
+        "32": "",
+        "33": ""
+    }
+}{
+    "indiv_id": {
+        "34": 1,
+        "35": 2,
+        "36": 6,
+        "37": 8
+    },
+    "iter_num": {
+        "34": 29,
+        "35": 29,
+        "36": 29,
+        "37": 29
+    },
+    "accuracy": {
+        "34": 7,
+        "35": 7,
+        "36": 7,
+        "37": 7
+    },
+    "time_tolerance": {
+        "34": 2,
+        "35": 2,
+        "36": 2,
+        "37": 2
+    },
+    "interpretability": {
+        "34": 8,
+        "35": 8,
+        "36": 8,
+        "37": 8
+    },
+    "score": {
+        "34": 0.7564230266,
+        "35": 0.8502096039,
+        "36": 0.7683229954,
+        "37": 0.7662121353
+    },
+    "tournament_score": {
+        "34": 0.7564230266,
+        "35": 0.8502096039,
+        "36": 0.7683229954,
+        "37": 0.7662121353
+    },
+    "score_sd": {
+        "34": 0.0295083318,
+        "35": 0.0251766811,
+        "36": 0.0286257015,
+        "37": 0.0302674864
+    },
+    "top derived_features": {
+        "34": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['3_Txt:tweet.4', 0.7672027945518494], ['2_TEXTCNN_TE:tweet.2', 0.6355380415916443]]",
+        "35": "[['6_TEXTCHARCNN_TE:tweet.0', 1.0], ['6_TEXTCHARCNN_TE:tweet.2', 0.7948991060256958], ['6_TEXTCHARCNN_TE:tweet.1', 0.6690537929534912]]",
+        "36": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['2_TEXTCNN_TE:tweet.2', 0.6118283271789551], ['3_Txt:tweet.4', 0.5147219300270081]]",
+        "37": "[['7_TEXTBIGRU_TE:tweet.1', 1.0], ['3_Txt:tweet.4', 0.858603835105896], ['3_Txt:tweet.5', 0.534728467464447]]"
+    },
+    "top original_features": {
+        "34": "[['tweet', 1.0]]",
+        "35": "[['tweet', 1.0]]",
+        "36": "[['tweet', 1.0]]",
+        "37": "[['tweet', 1.0]]"
+    },
+    "training_times": {
+        "34": 5.498257637,
+        "35": 2.3994636536,
+        "36": 3.1952245235,
+        "37": 4.8635392189
+    },
+    "best_iterations": {
+        "34": 99,
+        "35": 19,
+        "36": 83,
+        "37": 60
+    },
+    "last_3_mutation_try_actual_actions": {
+        "34": [
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "add_best",
+                "add_best"
+            ],
+            [
+                "add",
+                "add"
+            ]
+        ],
+        "35": [
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "prune",
+                "prune_3"
+            ]
+        ],
+        "36": [
+            [
+                "prune",
+                "prune_1"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ]
+        ],
+        "37": [
+            [
+                "prune_by_features",
+                "prune_by_features_2"
+            ],
+            [
+                "add_best",
+                "add_best"
+            ],
+            [
+                "add",
+                "add"
+            ]
+        ]
+    },
+    "ngenes_start": {
+        "34": 5,
+        "35": 2,
+        "36": 5,
+        "37": 5
+    },
+    "ngenes_max": {
+        "34": 100,
+        "35": 100,
+        "36": 100,
+        "37": 100
+    },
+    "ngenes": {
+        "34": 6,
+        "35": 1,
+        "36": 4,
+        "37": 3
+    },
+    "ngenes_dead": {
+        "34": 5,
+        "35": 6,
+        "36": 1,
+        "37": 5
+    },
+    "nfeatures_max": {
+        "34": 100,
+        "35": 100,
+        "36": 100,
+        "37": 100
+    },
+    "nfeatures": {
+        "34": 63,
+        "35": 3,
+        "36": 59,
+        "37": 54
+    },
+    "feature_cost": {
+        "34": 63,
+        "35": 3,
+        "36": 59,
+        "37": 54
+    },
+    "model_name": {
+        "34": "LIGHTGBM",
+        "35": "LIGHTGBM",
+        "36": "LIGHTGBM",
+        "37": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "34": "NoneType",
+        "35": "NoneType",
+        "36": "NoneType",
+        "37": "NoneType"
+    },
+    "from_brain": {
+        "34": false,
+        "35": false,
+        "36": false,
+        "37": false
+    },
+    "derived_from_brain": {
+        "34": false,
+        "35": false,
+        "36": false,
+        "37": false
+    },
+    "from_brain_count": {
+        "34": 0,
+        "35": 0,
+        "36": 0,
+        "37": 0
+    },
+    "derived_from_brain_count": {
+        "34": 0,
+        "35": 0,
+        "36": 0,
+        "37": 0
+    },
+    "booster": {
+        "34": "lightgbm",
+        "35": "lightgbm",
+        "36": "lightgbm",
+        "37": "lightgbm"
+    },
+    "model_class_name": {
+        "34": "LightGBMModel",
+        "35": "LightGBMModel",
+        "36": "LightGBMModel",
+        "37": "LightGBMModel"
+    },
+    "n_gpus": {
+        "34": 0,
+        "35": 0,
+        "36": 0,
+        "37": 0
+    },
+    "gpu_id": {
+        "34": 0,
+        "35": 0,
+        "36": 0,
+        "37": 0
+    },
+    "n_jobs": {
+        "34": 4,
+        "35": 4,
+        "36": 4,
+        "37": 4
+    },
+    "num_classes": {
+        "34": 3,
+        "35": 3,
+        "36": 3,
+        "37": 3
+    },
+    "num_class": {
+        "34": 3,
+        "35": 3,
+        "36": 3,
+        "37": 3
+    },
+    "labels": {
+        "34": [
+            0,
+            1,
+            2
+        ],
+        "35": [
+            0,
+            1,
+            2
+        ],
+        "36": [
+            0,
+            1,
+            2
+        ],
+        "37": [
+            0,
+            1,
+            2
+        ]
+    },
+    "score_f_name": {
+        "34": "LOGLOSS",
+        "35": "LOGLOSS",
+        "36": "LOGLOSS",
+        "37": "LOGLOSS"
+    },
+    "random_state": {
+        "34": 1006544132,
+        "35": 1006544132,
+        "36": 1006544132,
+        "37": 1006544132
+    },
+    "time_column": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "tgc": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "pred_gap": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "pred_periods": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "target": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "n_estimators": {
+        "34": 600,
+        "35": 600,
+        "36": 600,
+        "37": 600
+    },
+    "learning_rate": {
+        "34": 0.05,
+        "35": 0.05,
+        "36": 0.05,
+        "37": 0.05
+    },
+    "early_stopping_rounds": {
+        "34": 30,
+        "35": 30,
+        "36": 30,
+        "37": 30
+    },
+    "reg_alpha": {
+        "34": 0.0,
+        "35": 0.0,
+        "36": 0.0,
+        "37": 0.0
+    },
+    "reg_lambda": {
+        "34": 5.0,
+        "35": 10.0,
+        "36": 2.0,
+        "37": 2.0
+    },
+    "gamma": {
+        "34": 0.0,
+        "35": 0.001,
+        "36": 0.0,
+        "37": 0.0
+    },
+    "max_bin": {
+        "34": 128,
+        "35": 256,
+        "36": 64,
+        "37": 64
+    },
+    "scale_pos_weight": {
+        "34": 1.0,
+        "35": 1.0,
+        "36": 1.0,
+        "37": 1.0
+    },
+    "max_delta_step": {
+        "34": 0.0,
+        "35": 0.0,
+        "36": 0.0,
+        "37": 0.0
+    },
+    "min_child_weight": {
+        "34": 1,
+        "35": 1,
+        "36": 1,
+        "37": 1
+    },
+    "subsample": {
+        "34": 0.5,
+        "35": 1.0,
+        "36": 0.8,
+        "37": 0.8
+    },
+    "subsample_freq": {
+        "34": 1,
+        "35": 0,
+        "36": 20,
+        "37": 1
+    },
+    "colsample_bytree": {
+        "34": 0.55,
+        "35": 0.4,
+        "36": 0.6,
+        "37": 0.6
+    },
+    "tree_method": {
+        "34": "hist",
+        "35": "hist",
+        "36": "hist",
+        "37": "hist"
+    },
+    "grow_policy": {
+        "34": "lossguide",
+        "35": "lossguide",
+        "36": "depthwise",
+        "37": "depthwise"
+    },
+    "max_leaves": {
+        "34": 32,
+        "35": 128,
+        "36": 0,
+        "37": 0
+    },
+    "max_depth": {
+        "34": 0,
+        "35": 0,
+        "36": 8,
+        "37": 8
+    },
+    "min_data_in_bin": {
+        "34": 5,
+        "35": 3,
+        "36": 3,
+        "37": 1
+    },
+    "min_child_samples": {
+        "34": 5,
+        "35": 1,
+        "36": 25,
+        "37": 1
+    },
+    "boosting_type": {
+        "34": "gbdt",
+        "35": "gbdt",
+        "36": "gbdt",
+        "37": "gbdt"
+    },
+    "enable_early_stopping_rounds": {
+        "34": true,
+        "35": true,
+        "36": true,
+        "37": true
+    },
+    "objective": {
+        "34": "multi:softprob",
+        "35": "multi:softprob",
+        "36": "multi:softprob",
+        "37": "multi:softprob"
+    },
+    "eval_metric": {
+        "34": "mlogloss",
+        "35": "mlogloss",
+        "36": "mlogloss",
+        "37": "mlogloss"
+    },
+    "monotonicity_constraints": {
+        "34": false,
+        "35": false,
+        "36": false,
+        "37": false
+    },
+    "silent": {
+        "34": true,
+        "35": true,
+        "36": true,
+        "37": true
+    },
+    "seed": {
+        "34": 1006544132,
+        "35": 1006544132,
+        "36": 1006544132,
+        "37": 1006544132
+    },
+    "disable_gpus": {
+        "34": true,
+        "35": true,
+        "36": true,
+        "37": true
+    },
+    "lossguide": {
+        "34": false,
+        "35": false,
+        "36": false,
+        "37": false
+    },
+    "dummy": {
+        "34": false,
+        "35": false,
+        "36": false,
+        "37": false
+    },
+    "ensemble_level": {
+        "34": 1,
+        "35": 1,
+        "36": 1,
+        "37": 1
+    },
+    "train_shape": {
+        "34": [
+            1842,
+            2
+        ],
+        "35": [
+            1842,
+            2
+        ],
+        "36": [
+            1842,
+            2
+        ],
+        "37": [
+            1842,
+            2
+        ]
+    },
+    "valid_shape": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "model_origin": {
+        "34": "SEQUENCE",
+        "35": "DefaultIndiv: do_te:only,interp:8,depth:10,num_as_cat:False",
+        "36": "SEQUENCE",
+        "37": "SEQUENCE"
+    },
+    "early_stopping_threshold": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "debug_verbose": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "epochs": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "add_wide": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "add_attention": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "layers": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "activation": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "batch_size": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "chunk_size": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "dropout": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "strategy": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "l1": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "l2": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "ort_loss": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "ort_loss_tau": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "normalize_type": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "best_learning_rate": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "task": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    },
+    "experiment_id": {
+        "34": "",
+        "35": "",
+        "36": "",
+        "37": ""
+    }
+}{
+    "indiv_id": {
+        "38": 1,
+        "39": 3,
+        "40": 5,
+        "41": 6
+    },
+    "iter_num": {
+        "38": 30,
+        "39": 30,
+        "40": 30,
+        "41": 30
+    },
+    "accuracy": {
+        "38": 7,
+        "39": 7,
+        "40": 7,
+        "41": 7
+    },
+    "time_tolerance": {
+        "38": 2,
+        "39": 2,
+        "40": 2,
+        "41": 2
+    },
+    "interpretability": {
+        "38": 8,
+        "39": 8,
+        "40": 8,
+        "41": 8
+    },
+    "score": {
+        "38": 0.762499295,
+        "39": 0.7601535282,
+        "40": 0.7632511707,
+        "41": 0.7565534304
+    },
+    "tournament_score": {
+        "38": 0.762499295,
+        "39": 0.7601535282,
+        "40": 0.7632511707,
+        "41": 0.7565534304
+    },
+    "score_sd": {
+        "38": 0.0294755696,
+        "39": 0.0301744802,
+        "40": 0.0297514363,
+        "41": 0.0297331832
+    },
+    "top derived_features": {
+        "38": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['3_Txt:tweet.4', 0.8131532669067383], ['2_TEXTCNN_TE:tweet.2', 0.8037293553352356]]",
+        "39": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['2_TEXTCNN_TE:tweet.2', 0.5798393487930298], ['3_Txt:tweet.4', 0.5319356322288513]]",
+        "40": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['3_Txt:tweet.4', 0.6799578666687012], ['2_TEXTCNN_TE:tweet.2', 0.48685333132743835]]",
+        "41": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['3_Txt:tweet.4', 0.6313554048538208], ['2_TEXTCNN_TE:tweet.2', 0.5682569742202759]]"
+    },
+    "top original_features": {
+        "38": "[['tweet', 1.0]]",
+        "39": "[['tweet', 1.0]]",
+        "40": "[['tweet', 1.0]]",
+        "41": "[['tweet', 1.0]]"
+    },
+    "training_times": {
+        "38": 4.8694252968,
+        "39": 5.7236773968,
+        "40": 4.7414455414,
+        "41": 6.0947670937
+    },
+    "best_iterations": {
+        "38": 100,
+        "39": 58,
+        "40": 94,
+        "41": 81
+    },
+    "last_3_mutation_try_actual_actions": {
+        "38": [
+            [
+                "add",
+                "add"
+            ],
+            [
+                "add_best",
+                "add_best"
+            ],
+            [
+                "add_best",
+                "add_best"
+            ]
+        ],
+        "39": [
+            [
+                "prune",
+                "prune_1"
+            ],
+            [
+                "add_best",
+                "add_best"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ]
+        ],
+        "40": [
+            [
+                "add",
+                "add"
+            ],
+            [
+                "prune_by_features",
+                "prune_by_features_1"
+            ],
+            [
+                "prune_by_features",
+                "prune_by_features_2"
+            ]
+        ],
+        "41": [
+            [
+                "perturb_xgb",
+                "mutate_extra_5_5"
+            ],
+            [
+                "prune_by_features",
+                "prune_by_features_2"
+            ],
+            [
+                "add_best",
+                "add_best"
+            ]
+        ]
+    },
+    "ngenes_start": {
+        "38": 5,
+        "39": 5,
+        "40": 5,
+        "41": 5
+    },
+    "ngenes_max": {
+        "38": 100,
+        "39": 100,
+        "40": 100,
+        "41": 100
+    },
+    "ngenes": {
+        "38": 7,
+        "39": 4,
+        "40": 5,
+        "41": 6
+    },
+    "ngenes_dead": {
+        "38": 5,
+        "39": 4,
+        "40": 6,
+        "41": 0
+    },
+    "nfeatures_max": {
+        "38": 100,
+        "39": 100,
+        "40": 100,
+        "41": 100
+    },
+    "nfeatures": {
+        "38": 66,
+        "39": 59,
+        "40": 62,
+        "41": 65
+    },
+    "feature_cost": {
+        "38": 66,
+        "39": 59,
+        "40": 62,
+        "41": 65
+    },
+    "model_name": {
+        "38": "LIGHTGBM",
+        "39": "LIGHTGBM",
+        "40": "LIGHTGBM",
+        "41": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "38": "NoneType",
+        "39": "NoneType",
+        "40": "NoneType",
+        "41": "NoneType"
+    },
+    "from_brain": {
+        "38": false,
+        "39": false,
+        "40": false,
+        "41": false
+    },
+    "derived_from_brain": {
+        "38": false,
+        "39": false,
+        "40": false,
+        "41": false
+    },
+    "from_brain_count": {
+        "38": 0,
+        "39": 0,
+        "40": 0,
+        "41": 0
+    },
+    "derived_from_brain_count": {
+        "38": 0,
+        "39": 0,
+        "40": 0,
+        "41": 0
+    },
+    "booster": {
+        "38": "lightgbm",
+        "39": "lightgbm",
+        "40": "lightgbm",
+        "41": "lightgbm"
+    },
+    "model_class_name": {
+        "38": "LightGBMModel",
+        "39": "LightGBMModel",
+        "40": "LightGBMModel",
+        "41": "LightGBMModel"
+    },
+    "n_gpus": {
+        "38": 0,
+        "39": 0,
+        "40": 0,
+        "41": 0
+    },
+    "gpu_id": {
+        "38": 0,
+        "39": 0,
+        "40": 0,
+        "41": 0
+    },
+    "n_jobs": {
+        "38": 4,
+        "39": 4,
+        "40": 4,
+        "41": 4
+    },
+    "num_classes": {
+        "38": 3,
+        "39": 3,
+        "40": 3,
+        "41": 3
+    },
+    "num_class": {
+        "38": 3,
+        "39": 3,
+        "40": 3,
+        "41": 3
+    },
+    "labels": {
+        "38": [
+            0,
+            1,
+            2
+        ],
+        "39": [
+            0,
+            1,
+            2
+        ],
+        "40": [
+            0,
+            1,
+            2
+        ],
+        "41": [
+            0,
+            1,
+            2
+        ]
+    },
+    "score_f_name": {
+        "38": "LOGLOSS",
+        "39": "LOGLOSS",
+        "40": "LOGLOSS",
+        "41": "LOGLOSS"
+    },
+    "random_state": {
+        "38": 1006544132,
+        "39": 1006544132,
+        "40": 1006544132,
+        "41": 1006544132
+    },
+    "time_column": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "tgc": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "pred_gap": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "pred_periods": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "target": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "n_estimators": {
+        "38": 600,
+        "39": 600,
+        "40": 600,
+        "41": 600
+    },
+    "learning_rate": {
+        "38": 0.05,
+        "39": 0.05,
+        "40": 0.05,
+        "41": 0.05
+    },
+    "early_stopping_rounds": {
+        "38": 30,
+        "39": 30,
+        "40": 30,
+        "41": 30
+    },
+    "reg_alpha": {
+        "38": 0.0,
+        "39": 0.0,
+        "40": 0.0,
+        "41": 0.0
+    },
+    "reg_lambda": {
+        "38": 5.0,
+        "39": 2.0,
+        "40": 5.0,
+        "41": 1.0
+    },
+    "gamma": {
+        "38": 0.0,
+        "39": 0.0,
+        "40": 0.0,
+        "41": 0.0
+    },
+    "max_bin": {
+        "38": 128,
+        "39": 128,
+        "40": 128,
+        "41": 256
+    },
+    "scale_pos_weight": {
+        "38": 1.0,
+        "39": 1.0,
+        "40": 1.0,
+        "41": 1.0
+    },
+    "max_delta_step": {
+        "38": 0.0,
+        "39": 0.0,
+        "40": 0.0,
+        "41": 0.0
+    },
+    "min_child_weight": {
+        "38": 1,
+        "39": 1,
+        "40": 1,
+        "41": 1
+    },
+    "subsample": {
+        "38": 0.5,
+        "39": 0.8,
+        "40": 0.5,
+        "41": 0.7
+    },
+    "subsample_freq": {
+        "38": 1,
+        "39": 1,
+        "40": 1,
+        "41": 1
+    },
+    "colsample_bytree": {
+        "38": 0.55,
+        "39": 0.6,
+        "40": 0.55,
+        "41": 0.8
+    },
+    "tree_method": {
+        "38": "hist",
+        "39": "hist",
+        "40": "hist",
+        "41": "hist"
+    },
+    "grow_policy": {
+        "38": "lossguide",
+        "39": "depthwise",
+        "40": "lossguide",
+        "41": "depthwise"
+    },
+    "max_leaves": {
+        "38": 32,
+        "39": 0,
+        "40": 32,
+        "41": 0
+    },
+    "max_depth": {
+        "38": 0,
+        "39": 8,
+        "40": 0,
+        "41": 6
+    },
+    "min_data_in_bin": {
+        "38": 10,
+        "39": 1,
+        "40": 5,
+        "41": 1
+    },
+    "min_child_samples": {
+        "38": 5,
+        "39": 1,
+        "40": 5,
+        "41": 1
+    },
+    "boosting_type": {
+        "38": "gbdt",
+        "39": "gbdt",
+        "40": "gbdt",
+        "41": "gbdt"
+    },
+    "enable_early_stopping_rounds": {
+        "38": true,
+        "39": true,
+        "40": true,
+        "41": true
+    },
+    "objective": {
+        "38": "multi:softprob",
+        "39": "multi:softprob",
+        "40": "multi:softprob",
+        "41": "multi:softprob"
+    },
+    "eval_metric": {
+        "38": "mlogloss",
+        "39": "mlogloss",
+        "40": "mlogloss",
+        "41": "mlogloss"
+    },
+    "monotonicity_constraints": {
+        "38": false,
+        "39": false,
+        "40": false,
+        "41": false
+    },
+    "silent": {
+        "38": true,
+        "39": true,
+        "40": true,
+        "41": true
+    },
+    "seed": {
+        "38": 1006544132,
+        "39": 1006544132,
+        "40": 1006544132,
+        "41": 1006544132
+    },
+    "disable_gpus": {
+        "38": true,
+        "39": true,
+        "40": true,
+        "41": true
+    },
+    "lossguide": {
+        "38": false,
+        "39": false,
+        "40": false,
+        "41": false
+    },
+    "dummy": {
+        "38": false,
+        "39": false,
+        "40": false,
+        "41": false
+    },
+    "ensemble_level": {
+        "38": 1,
+        "39": 1,
+        "40": 1,
+        "41": 1
+    },
+    "train_shape": {
+        "38": [
+            1842,
+            2
+        ],
+        "39": [
+            1842,
+            2
+        ],
+        "40": [
+            1842,
+            2
+        ],
+        "41": [
+            1842,
+            2
+        ]
+    },
+    "valid_shape": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "model_origin": {
+        "38": "SEQUENCE",
+        "39": "SEQUENCE",
+        "40": "SEQUENCE",
+        "41": "SEQUENCE"
+    },
+    "early_stopping_threshold": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "debug_verbose": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "epochs": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "add_wide": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "add_attention": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "layers": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "activation": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "batch_size": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "chunk_size": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "dropout": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "strategy": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "l1": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "l2": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "ort_loss": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "ort_loss_tau": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "normalize_type": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "best_learning_rate": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "task": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    },
+    "experiment_id": {
+        "38": "",
+        "39": "",
+        "40": "",
+        "41": ""
+    }
+}{
+    "indiv_id": {
+        "42": 0,
+        "43": 3,
+        "44": 7,
+        "45": 8
+    },
+    "iter_num": {
+        "42": 31,
+        "43": 31,
+        "44": 31,
+        "45": 31
+    },
+    "accuracy": {
+        "42": 7,
+        "43": 7,
+        "44": 7,
+        "45": 7
+    },
+    "time_tolerance": {
+        "42": 2,
+        "43": 2,
+        "44": 2,
+        "45": 2
+    },
+    "interpretability": {
+        "42": 8,
+        "43": 8,
+        "44": 8,
+        "45": 8
+    },
+    "score": {
+        "42": 0.7622145565,
+        "43": 0.760322824,
+        "44": 0.7629351207,
+        "45": 0.7588825899
+    },
+    "tournament_score": {
+        "42": 0.7622145565,
+        "43": 0.760322824,
+        "44": 0.7629351207,
+        "45": 0.7588825899
+    },
+    "score_sd": {
+        "42": 0.0299111311,
+        "43": 0.0297801,
+        "44": 0.0275089189,
+        "45": 0.0273649689
+    },
+    "top derived_features": {
+        "42": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['3_Txt:tweet.4', 0.7763857245445251], ['2_TEXTCNN_TE:tweet.2', 0.5617625117301941]]",
+        "43": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['2_TEXTCNN_TE:tweet.2', 0.5548030138015747], ['1_TEXTBIGRU_TE:tweet.1', 0.5066197514533997]]",
+        "44": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['2_TEXTCNN_TE:tweet.2', 0.6113666892051697], ['3_Txt:tweet.4', 0.573081374168396]]",
+        "45": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['3_Txt:tweet.4', 0.6729029417037964], ['2_TEXTCNN_TE:tweet.2', 0.6083307862281799]]"
+    },
+    "top original_features": {
+        "42": "[['tweet', 1.0]]",
+        "43": "[['tweet', 1.0]]",
+        "44": "[['tweet', 1.0]]",
+        "45": "[['tweet', 1.0]]"
+    },
+    "training_times": {
+        "42": 6.5767452717,
+        "43": 4.5137047768,
+        "44": 2.6409916878,
+        "45": 3.0045771599
+    },
+    "best_iterations": {
+        "42": 82,
+        "43": 63,
+        "44": 127,
+        "45": 153
+    },
+    "last_3_mutation_try_actual_actions": {
+        "42": [
+            [
+                "prune_by_features",
+                "prune_by_features_3"
+            ],
+            [
+                "add",
+                "add"
+            ],
+            [
+                "add",
+                "add"
+            ]
+        ],
+        "43": [
+            [
+                "perturb_xgb",
+                "mutate_extra_5_5"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "prune",
+                "prune_1"
+            ]
+        ],
+        "44": [
+            [
+                "add",
+                "add"
+            ],
+            [
+                "add",
+                "add"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ]
+        ],
+        "45": [
+            [
+                "add_best",
+                "add_best"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "add_best",
+                "add_best"
+            ]
+        ]
+    },
+    "ngenes_start": {
+        "42": 5,
+        "43": 5,
+        "44": 5,
+        "45": 5
+    },
+    "ngenes_max": {
+        "42": 100,
+        "43": 100,
+        "44": 100,
+        "45": 100
+    },
+    "ngenes": {
+        "42": 6,
+        "43": 4,
+        "44": 6,
+        "45": 7
+    },
+    "ngenes_dead": {
+        "42": 7,
+        "43": 1,
+        "44": 7,
+        "45": 0
+    },
+    "nfeatures_max": {
+        "42": 100,
+        "43": 100,
+        "44": 100,
+        "45": 100
+    },
+    "nfeatures": {
+        "42": 63,
+        "43": 59,
+        "44": 65,
+        "45": 66
+    },
+    "feature_cost": {
+        "42": 63,
+        "43": 59,
+        "44": 65,
+        "45": 66
+    },
+    "model_name": {
+        "42": "LIGHTGBM",
+        "43": "LIGHTGBM",
+        "44": "LIGHTGBM",
+        "45": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "42": "NoneType",
+        "43": "NoneType",
+        "44": "NoneType",
+        "45": "NoneType"
+    },
+    "from_brain": {
+        "42": false,
+        "43": false,
+        "44": false,
+        "45": false
+    },
+    "derived_from_brain": {
+        "42": false,
+        "43": false,
+        "44": false,
+        "45": false
+    },
+    "from_brain_count": {
+        "42": 0,
+        "43": 0,
+        "44": 0,
+        "45": 0
+    },
+    "derived_from_brain_count": {
+        "42": 0,
+        "43": 0,
+        "44": 0,
+        "45": 0
+    },
+    "booster": {
+        "42": "lightgbm",
+        "43": "lightgbm",
+        "44": "lightgbm",
+        "45": "lightgbm"
+    },
+    "model_class_name": {
+        "42": "LightGBMModel",
+        "43": "LightGBMModel",
+        "44": "LightGBMModel",
+        "45": "LightGBMModel"
+    },
+    "n_gpus": {
+        "42": 0,
+        "43": 0,
+        "44": 0,
+        "45": 0
+    },
+    "gpu_id": {
+        "42": 0,
+        "43": 0,
+        "44": 0,
+        "45": 0
+    },
+    "n_jobs": {
+        "42": 4,
+        "43": 4,
+        "44": 4,
+        "45": 4
+    },
+    "num_classes": {
+        "42": 3,
+        "43": 3,
+        "44": 3,
+        "45": 3
+    },
+    "num_class": {
+        "42": 3,
+        "43": 3,
+        "44": 3,
+        "45": 3
+    },
+    "labels": {
+        "42": [
+            0,
+            1,
+            2
+        ],
+        "43": [
+            0,
+            1,
+            2
+        ],
+        "44": [
+            0,
+            1,
+            2
+        ],
+        "45": [
+            0,
+            1,
+            2
+        ]
+    },
+    "score_f_name": {
+        "42": "LOGLOSS",
+        "43": "LOGLOSS",
+        "44": "LOGLOSS",
+        "45": "LOGLOSS"
+    },
+    "random_state": {
+        "42": 1006544132,
+        "43": 1006544132,
+        "44": 1006544132,
+        "45": 1006544132
+    },
+    "time_column": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "tgc": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "pred_gap": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "pred_periods": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "target": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "n_estimators": {
+        "42": 600,
+        "43": 600,
+        "44": 600,
+        "45": 600
+    },
+    "learning_rate": {
+        "42": 0.05,
+        "43": 0.05,
+        "44": 0.05,
+        "45": 0.05
+    },
+    "early_stopping_rounds": {
+        "42": 30,
+        "43": 30,
+        "44": 30,
+        "45": 30
+    },
+    "reg_alpha": {
+        "42": 0.0,
+        "43": 0.0,
+        "44": 0.0,
+        "45": 2.0
+    },
+    "reg_lambda": {
+        "42": 5.0,
+        "43": 2.0,
+        "44": 10.0,
+        "45": 0.0
+    },
+    "gamma": {
+        "42": 0.0,
+        "43": 0.0,
+        "44": 0.0,
+        "45": 0.0
+    },
+    "max_bin": {
+        "42": 128,
+        "43": 64,
+        "44": 128,
+        "45": 256
+    },
+    "scale_pos_weight": {
+        "42": 1.0,
+        "43": 1.0,
+        "44": 1.0,
+        "45": 1.0
+    },
+    "max_delta_step": {
+        "42": 0.0,
+        "43": 0.0,
+        "44": 0.0,
+        "45": 0.0
+    },
+    "min_child_weight": {
+        "42": 1,
+        "43": 1,
+        "44": 1,
+        "45": 1
+    },
+    "subsample": {
+        "42": 0.5,
+        "43": 0.8,
+        "44": 1.0,
+        "45": 0.7
+    },
+    "subsample_freq": {
+        "42": 1,
+        "43": 1,
+        "44": 0,
+        "45": 10
+    },
+    "colsample_bytree": {
+        "42": 0.55,
+        "43": 0.35,
+        "44": 0.2,
+        "45": 0.35
+    },
+    "tree_method": {
+        "42": "hist",
+        "43": "hist",
+        "44": "hist",
+        "45": "hist"
+    },
+    "grow_policy": {
+        "42": "lossguide",
+        "43": "depthwise",
+        "44": "lossguide",
+        "45": "lossguide"
+    },
+    "max_leaves": {
+        "42": 32,
+        "43": 0,
+        "44": 8,
+        "45": 8
+    },
+    "max_depth": {
+        "42": 0,
+        "43": 8,
+        "44": 0,
+        "45": 0
+    },
+    "min_data_in_bin": {
+        "42": 5,
+        "43": 3,
+        "44": 3,
+        "45": 5
+    },
+    "min_child_samples": {
+        "42": 5,
+        "43": 1,
+        "44": 5,
+        "45": 1
+    },
+    "boosting_type": {
+        "42": "gbdt",
+        "43": "gbdt",
+        "44": "gbdt",
+        "45": "gbdt"
+    },
+    "enable_early_stopping_rounds": {
+        "42": true,
+        "43": true,
+        "44": true,
+        "45": true
+    },
+    "objective": {
+        "42": "multi:softprob",
+        "43": "multi:softprob",
+        "44": "multi:softprob",
+        "45": "multi:softprob"
+    },
+    "eval_metric": {
+        "42": "mlogloss",
+        "43": "mlogloss",
+        "44": "mlogloss",
+        "45": "mlogloss"
+    },
+    "monotonicity_constraints": {
+        "42": false,
+        "43": false,
+        "44": false,
+        "45": false
+    },
+    "silent": {
+        "42": true,
+        "43": true,
+        "44": true,
+        "45": true
+    },
+    "seed": {
+        "42": 1006544132,
+        "43": 1006544132,
+        "44": 1006544132,
+        "45": 1006544132
+    },
+    "disable_gpus": {
+        "42": true,
+        "43": true,
+        "44": true,
+        "45": true
+    },
+    "lossguide": {
+        "42": false,
+        "43": false,
+        "44": false,
+        "45": false
+    },
+    "dummy": {
+        "42": false,
+        "43": false,
+        "44": false,
+        "45": false
+    },
+    "ensemble_level": {
+        "42": 1,
+        "43": 1,
+        "44": 1,
+        "45": 1
+    },
+    "train_shape": {
+        "42": [
+            1842,
+            2
+        ],
+        "43": [
+            1842,
+            2
+        ],
+        "44": [
+            1842,
+            2
+        ],
+        "45": [
+            1842,
+            2
+        ]
+    },
+    "valid_shape": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "model_origin": {
+        "42": "SEQUENCE",
+        "43": "SEQUENCE",
+        "44": "SEQUENCE",
+        "45": "SEQUENCE"
+    },
+    "early_stopping_threshold": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "debug_verbose": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "epochs": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "add_wide": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "add_attention": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "layers": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "activation": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "batch_size": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "chunk_size": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "dropout": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "strategy": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "l1": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "l2": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "ort_loss": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "ort_loss_tau": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "normalize_type": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "best_learning_rate": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "task": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    },
+    "experiment_id": {
+        "42": "",
+        "43": "",
+        "44": "",
+        "45": ""
+    }
+}{
+    "indiv_id": {
+        "46": 0,
+        "47": 3,
+        "48": 6,
+        "49": 7
+    },
+    "iter_num": {
+        "46": 32,
+        "47": 32,
+        "48": 32,
+        "49": 32
+    },
+    "accuracy": {
+        "46": 7,
+        "47": 7,
+        "48": 7,
+        "49": 7
+    },
+    "time_tolerance": {
+        "46": 2,
+        "47": 2,
+        "48": 2,
+        "49": 2
+    },
+    "interpretability": {
+        "46": 8,
+        "47": 8,
+        "48": 8,
+        "49": 8
+    },
+    "score": {
+        "46": 0.7620608362,
+        "47": 0.7603509409,
+        "48": 0.7682867048,
+        "49": 0.7615749338
+    },
+    "tournament_score": {
+        "46": 0.7620608362,
+        "47": 0.7603509409,
+        "48": 0.7682867048,
+        "49": 0.7615749338
+    },
+    "score_sd": {
+        "46": 0.0301135096,
+        "47": 0.029335749,
+        "48": 0.0275104347,
+        "49": 0.0292637771
+    },
+    "top derived_features": {
+        "46": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['3_Txt:tweet.4', 0.6423009634017944], ['2_TEXTCNN_TE:tweet.2', 0.5708741545677185]]",
+        "47": "[['12_TEXTCNN_TE:tweet.1', 1.0], ['3_Txt:tweet.4', 0.7631661891937256], ['12_TEXTCNN_TE:tweet.2', 0.6794354319572449]]",
+        "48": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['2_TEXTCNN_TE:tweet.2', 0.6897080540657043], ['3_Txt:tweet.4', 0.6588128805160522]]",
+        "49": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['10_TEXTBIGRU_TE:tweet.1', 0.7347577214241028], ['3_Txt:tweet.4', 0.6871662139892578]]"
+    },
+    "top original_features": {
+        "46": "[['tweet', 1.0]]",
+        "47": "[['tweet', 1.0]]",
+        "48": "[['tweet', 1.0]]",
+        "49": "[['tweet', 1.0]]"
+    },
+    "training_times": {
+        "46": 4.8020243645,
+        "47": 4.638147831,
+        "48": 2.9036688805,
+        "49": 4.3440024853
+    },
+    "best_iterations": {
+        "46": 52,
+        "47": 82,
+        "48": 88,
+        "49": 93
+    },
+    "last_3_mutation_try_actual_actions": {
+        "46": [
+            [
+                "add",
+                "add"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "prune_by_features",
+                "prune_by_features_3"
+            ]
+        ],
+        "47": [
+            [
+                "prune",
+                "prune_3"
+            ],
+            [
+                "prune_by_features",
+                "prune_by_features_2"
+            ],
+            [
+                "add",
+                "add"
+            ]
+        ],
+        "48": [
+            [
+                "add",
+                "add"
+            ],
+            [
+                "prune",
+                "prune_1"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ]
+        ],
+        "49": [
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "prune_by_features",
+                "prune_by_features_1"
+            ],
+            [
+                "prune_by_features",
+                "prune_by_features_3"
+            ]
+        ]
+    },
+    "ngenes_start": {
+        "46": 5,
+        "47": 5,
+        "48": 5,
+        "49": 5
+    },
+    "ngenes_max": {
+        "46": 100,
+        "47": 100,
+        "48": 100,
+        "49": 100
+    },
+    "ngenes": {
+        "46": 6,
+        "47": 2,
+        "48": 7,
+        "49": 4
+    },
+    "ngenes_dead": {
+        "46": 1,
+        "47": 10,
+        "48": 3,
+        "49": 10
+    },
+    "nfeatures_max": {
+        "46": 100,
+        "47": 100,
+        "48": 100,
+        "49": 100
+    },
+    "nfeatures": {
+        "46": 65,
+        "47": 53,
+        "48": 66,
+        "49": 59
+    },
+    "feature_cost": {
+        "46": 65,
+        "47": 53,
+        "48": 66,
+        "49": 59
+    },
+    "model_name": {
+        "46": "LIGHTGBM",
+        "47": "LIGHTGBM",
+        "48": "LIGHTGBM",
+        "49": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "46": "NoneType",
+        "47": "NoneType",
+        "48": "NoneType",
+        "49": "NoneType"
+    },
+    "from_brain": {
+        "46": false,
+        "47": false,
+        "48": false,
+        "49": false
+    },
+    "derived_from_brain": {
+        "46": false,
+        "47": false,
+        "48": false,
+        "49": false
+    },
+    "from_brain_count": {
+        "46": 0,
+        "47": 0,
+        "48": 0,
+        "49": 0
+    },
+    "derived_from_brain_count": {
+        "46": 0,
+        "47": 0,
+        "48": 0,
+        "49": 0
+    },
+    "booster": {
+        "46": "lightgbm",
+        "47": "lightgbm",
+        "48": "lightgbm",
+        "49": "lightgbm"
+    },
+    "model_class_name": {
+        "46": "LightGBMModel",
+        "47": "LightGBMModel",
+        "48": "LightGBMModel",
+        "49": "LightGBMModel"
+    },
+    "n_gpus": {
+        "46": 0,
+        "47": 0,
+        "48": 0,
+        "49": 0
+    },
+    "gpu_id": {
+        "46": 0,
+        "47": 0,
+        "48": 0,
+        "49": 0
+    },
+    "n_jobs": {
+        "46": 4,
+        "47": 4,
+        "48": 4,
+        "49": 4
+    },
+    "num_classes": {
+        "46": 3,
+        "47": 3,
+        "48": 3,
+        "49": 3
+    },
+    "num_class": {
+        "46": 3,
+        "47": 3,
+        "48": 3,
+        "49": 3
+    },
+    "labels": {
+        "46": [
+            0,
+            1,
+            2
+        ],
+        "47": [
+            0,
+            1,
+            2
+        ],
+        "48": [
+            0,
+            1,
+            2
+        ],
+        "49": [
+            0,
+            1,
+            2
+        ]
+    },
+    "score_f_name": {
+        "46": "LOGLOSS",
+        "47": "LOGLOSS",
+        "48": "LOGLOSS",
+        "49": "LOGLOSS"
+    },
+    "random_state": {
+        "46": 1006544132,
+        "47": 1006544132,
+        "48": 1006544132,
+        "49": 1006544132
+    },
+    "time_column": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "tgc": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "pred_gap": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "pred_periods": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "target": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "n_estimators": {
+        "46": 600,
+        "47": 600,
+        "48": 600,
+        "49": 600
+    },
+    "learning_rate": {
+        "46": 0.05,
+        "47": 0.05,
+        "48": 0.05,
+        "49": 0.05
+    },
+    "early_stopping_rounds": {
+        "46": 30,
+        "47": 30,
+        "48": 30,
+        "49": 30
+    },
+    "reg_alpha": {
+        "46": 0.0,
+        "47": 0.0,
+        "48": 0.0,
+        "49": 0.0
+    },
+    "reg_lambda": {
+        "46": 2.0,
+        "47": 5.0,
+        "48": 0.0,
+        "49": 5.0
+    },
+    "gamma": {
+        "46": 0.0,
+        "47": 0.0,
+        "48": 0.0,
+        "49": 0.0
+    },
+    "max_bin": {
+        "46": 64,
+        "47": 128,
+        "48": 256,
+        "49": 128
+    },
+    "scale_pos_weight": {
+        "46": 1.0,
+        "47": 1.0,
+        "48": 1.0,
+        "49": 1.0
+    },
+    "max_delta_step": {
+        "46": 0.0,
+        "47": 0.0,
+        "48": 0.0,
+        "49": 0.0
+    },
+    "min_child_weight": {
+        "46": 1,
+        "47": 1,
+        "48": 1,
+        "49": 1
+    },
+    "subsample": {
+        "46": 0.8,
+        "47": 0.5,
+        "48": 0.7,
+        "49": 0.5
+    },
+    "subsample_freq": {
+        "46": 5,
+        "47": 1,
+        "48": 10,
+        "49": 1
+    },
+    "colsample_bytree": {
+        "46": 0.6,
+        "47": 0.55,
+        "48": 0.35,
+        "49": 0.3
+    },
+    "tree_method": {
+        "46": "hist",
+        "47": "hist",
+        "48": "hist",
+        "49": "hist"
+    },
+    "grow_policy": {
+        "46": "depthwise",
+        "47": "lossguide",
+        "48": "lossguide",
+        "49": "lossguide"
+    },
+    "max_leaves": {
+        "46": 0,
+        "47": 32,
+        "48": 8,
+        "49": 32
+    },
+    "max_depth": {
+        "46": 8,
+        "47": 0,
+        "48": 0,
+        "49": 0
+    },
+    "min_data_in_bin": {
+        "46": 3,
+        "47": 5,
+        "48": 5,
+        "49": 5
+    },
+    "min_child_samples": {
+        "46": 1,
+        "47": 5,
+        "48": 1,
+        "49": 5
+    },
+    "boosting_type": {
+        "46": "gbdt",
+        "47": "gbdt",
+        "48": "gbdt",
+        "49": "gbdt"
+    },
+    "enable_early_stopping_rounds": {
+        "46": true,
+        "47": true,
+        "48": true,
+        "49": true
+    },
+    "objective": {
+        "46": "multi:softprob",
+        "47": "multi:softprob",
+        "48": "multi:softprob",
+        "49": "multi:softprob"
+    },
+    "eval_metric": {
+        "46": "mlogloss",
+        "47": "mlogloss",
+        "48": "mlogloss",
+        "49": "mlogloss"
+    },
+    "monotonicity_constraints": {
+        "46": false,
+        "47": false,
+        "48": false,
+        "49": false
+    },
+    "silent": {
+        "46": true,
+        "47": true,
+        "48": true,
+        "49": true
+    },
+    "seed": {
+        "46": 1006544132,
+        "47": 1006544132,
+        "48": 1006544132,
+        "49": 1006544132
+    },
+    "disable_gpus": {
+        "46": true,
+        "47": true,
+        "48": true,
+        "49": true
+    },
+    "lossguide": {
+        "46": false,
+        "47": false,
+        "48": false,
+        "49": false
+    },
+    "dummy": {
+        "46": false,
+        "47": false,
+        "48": false,
+        "49": false
+    },
+    "ensemble_level": {
+        "46": 1,
+        "47": 1,
+        "48": 1,
+        "49": 1
+    },
+    "train_shape": {
+        "46": [
+            1842,
+            2
+        ],
+        "47": [
+            1842,
+            2
+        ],
+        "48": [
+            1842,
+            2
+        ],
+        "49": [
+            1842,
+            2
+        ]
+    },
+    "valid_shape": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "model_origin": {
+        "46": "SEQUENCE",
+        "47": "SEQUENCE",
+        "48": "SEQUENCE",
+        "49": "SEQUENCE"
+    },
+    "early_stopping_threshold": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "debug_verbose": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "epochs": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "add_wide": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "add_attention": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "layers": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "activation": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "batch_size": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "chunk_size": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "dropout": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "strategy": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "l1": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "l2": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "ort_loss": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "ort_loss_tau": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "normalize_type": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "best_learning_rate": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "task": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    },
+    "experiment_id": {
+        "46": "",
+        "47": "",
+        "48": "",
+        "49": ""
+    }
+}{
+    "indiv_id": {
+        "50": 1,
+        "51": 3,
+        "52": 6,
+        "53": 7
+    },
+    "iter_num": {
+        "50": 33,
+        "51": 33,
+        "52": 33,
+        "53": 33
+    },
+    "accuracy": {
+        "50": 7,
+        "51": 7,
+        "52": 7,
+        "53": 7
+    },
+    "time_tolerance": {
+        "50": 2,
+        "51": 2,
+        "52": 2,
+        "53": 2
+    },
+    "interpretability": {
+        "50": 8,
+        "51": 8,
+        "52": 8,
+        "53": 8
+    },
+    "score": {
+        "50": 0.7621100276,
+        "51": 0.7582871475,
+        "52": 0.7685762002,
+        "53": 0.7592890146
+    },
+    "tournament_score": {
+        "50": 0.7621100276,
+        "51": 0.7582871475,
+        "52": 0.7685762002,
+        "53": 0.7592890146
+    },
+    "score_sd": {
+        "50": 0.0290518503,
+        "51": 0.027507677,
+        "52": 0.0304315042,
+        "53": 0.0292734729
+    },
+    "top derived_features": {
+        "50": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['2_TEXTCNN_TE:tweet.2', 0.83811354637146], ['3_Txt:tweet.4', 0.6740930080413818]]",
+        "51": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['3_Txt:tweet.4', 0.8046688437461853], ['2_TEXTCNN_TE:tweet.2', 0.626258373260498]]",
+        "52": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['2_TEXTCNN_TE:tweet.2', 0.6271125078201294], ['3_Txt:tweet.4', 0.6219691038131714]]",
+        "53": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['3_Txt:tweet.4', 0.4982050359249115], ['2_TEXTCNN_TE:tweet.2', 0.4352474510669708]]"
+    },
+    "top original_features": {
+        "50": "[['tweet', 1.0]]",
+        "51": "[['tweet', 1.0]]",
+        "52": "[['tweet', 1.0]]",
+        "53": "[['tweet', 1.0]]"
+    },
+    "training_times": {
+        "50": 4.0405504704,
+        "51": 4.1044828892,
+        "52": 4.8473858833,
+        "53": 5.6741483212
+    },
+    "best_iterations": {
+        "50": 53,
+        "51": 234,
+        "52": 49,
+        "53": 55
+    },
+    "last_3_mutation_try_actual_actions": {
+        "50": [
+            [
+                "add_best",
+                "add_best"
+            ],
+            [
+                "prune",
+                "prune_2"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ]
+        ],
+        "51": [
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "add",
+                "add"
+            ],
+            [
+                "add_best",
+                "add_best"
+            ]
+        ],
+        "52": [
+            [
+                "prune_by_features",
+                "prune_by_features_3"
+            ],
+            [
+                "add",
+                "add"
+            ],
+            [
+                "add_best",
+                "add_best"
+            ]
+        ],
+        "53": [
+            [
+                "prune_by_features",
+                "prune_by_features_2"
+            ],
+            [
+                "add",
+                "add"
+            ],
+            [
+                "prune_by_features",
+                "prune_by_features_3"
+            ]
+        ]
+    },
+    "ngenes_start": {
+        "50": 5,
+        "51": 5,
+        "52": 5,
+        "53": 5
+    },
+    "ngenes_max": {
+        "50": 100,
+        "51": 100,
+        "52": 100,
+        "53": 100
+    },
+    "ngenes": {
+        "50": 7,
+        "51": 4,
+        "52": 5,
+        "53": 3
+    },
+    "ngenes_dead": {
+        "50": 4,
+        "51": 9,
+        "52": 4,
+        "53": 4
+    },
+    "nfeatures_max": {
+        "50": 100,
+        "51": 100,
+        "52": 100,
+        "53": 100
+    },
+    "nfeatures": {
+        "50": 66,
+        "51": 59,
+        "52": 60,
+        "53": 56
+    },
+    "feature_cost": {
+        "50": 66,
+        "51": 59,
+        "52": 60,
+        "53": 56
+    },
+    "model_name": {
+        "50": "LIGHTGBM",
+        "51": "LIGHTGBM",
+        "52": "LIGHTGBM",
+        "53": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "50": "NoneType",
+        "51": "NoneType",
+        "52": "NoneType",
+        "53": "NoneType"
+    },
+    "from_brain": {
+        "50": false,
+        "51": false,
+        "52": false,
+        "53": false
+    },
+    "derived_from_brain": {
+        "50": false,
+        "51": false,
+        "52": false,
+        "53": false
+    },
+    "from_brain_count": {
+        "50": 0,
+        "51": 0,
+        "52": 0,
+        "53": 0
+    },
+    "derived_from_brain_count": {
+        "50": 0,
+        "51": 0,
+        "52": 0,
+        "53": 0
+    },
+    "booster": {
+        "50": "lightgbm",
+        "51": "lightgbm",
+        "52": "lightgbm",
+        "53": "lightgbm"
+    },
+    "model_class_name": {
+        "50": "LightGBMModel",
+        "51": "LightGBMModel",
+        "52": "LightGBMModel",
+        "53": "LightGBMModel"
+    },
+    "n_gpus": {
+        "50": 0,
+        "51": 0,
+        "52": 0,
+        "53": 0
+    },
+    "gpu_id": {
+        "50": 0,
+        "51": 0,
+        "52": 0,
+        "53": 0
+    },
+    "n_jobs": {
+        "50": 4,
+        "51": 4,
+        "52": 4,
+        "53": 4
+    },
+    "num_classes": {
+        "50": 3,
+        "51": 3,
+        "52": 3,
+        "53": 3
+    },
+    "num_class": {
+        "50": 3,
+        "51": 3,
+        "52": 3,
+        "53": 3
+    },
+    "labels": {
+        "50": [
+            0,
+            1,
+            2
+        ],
+        "51": [
+            0,
+            1,
+            2
+        ],
+        "52": [
+            0,
+            1,
+            2
+        ],
+        "53": [
+            0,
+            1,
+            2
+        ]
+    },
+    "score_f_name": {
+        "50": "LOGLOSS",
+        "51": "LOGLOSS",
+        "52": "LOGLOSS",
+        "53": "LOGLOSS"
+    },
+    "random_state": {
+        "50": 1006544132,
+        "51": 1006544132,
+        "52": 1006544132,
+        "53": 1006544132
+    },
+    "time_column": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "tgc": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "pred_gap": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "pred_periods": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "target": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "n_estimators": {
+        "50": 600,
+        "51": 600,
+        "52": 600,
+        "53": 600
+    },
+    "learning_rate": {
+        "50": 0.05,
+        "51": 0.05,
+        "52": 0.05,
+        "53": 0.05
+    },
+    "early_stopping_rounds": {
+        "50": 30,
+        "51": 30,
+        "52": 30,
+        "53": 30
+    },
+    "reg_alpha": {
+        "50": 0.0,
+        "51": 10.0,
+        "52": 0.0,
+        "53": 0.0
+    },
+    "reg_lambda": {
+        "50": 2.0,
+        "51": 0.0,
+        "52": 2.0,
+        "53": 1.0
+    },
+    "gamma": {
+        "50": 0.001,
+        "51": 0.0,
+        "52": 0.0,
+        "53": 0.0
+    },
+    "max_bin": {
+        "50": 128,
+        "51": 64,
+        "52": 64,
+        "53": 256
+    },
+    "scale_pos_weight": {
+        "50": 1.0,
+        "51": 1.0,
+        "52": 1.0,
+        "53": 1.0
+    },
+    "max_delta_step": {
+        "50": 0.0,
+        "51": 0.0,
+        "52": 0.0,
+        "53": 0.0
+    },
+    "min_child_weight": {
+        "50": 1,
+        "51": 1,
+        "52": 1,
+        "53": 1
+    },
+    "subsample": {
+        "50": 0.8,
+        "51": 0.6,
+        "52": 0.8,
+        "53": 0.7
+    },
+    "subsample_freq": {
+        "50": 5,
+        "51": 1,
+        "52": 5,
+        "53": 1
+    },
+    "colsample_bytree": {
+        "50": 0.6,
+        "51": 0.7,
+        "52": 0.6,
+        "53": 0.8
+    },
+    "tree_method": {
+        "50": "hist",
+        "51": "hist",
+        "52": "hist",
+        "53": "hist"
+    },
+    "grow_policy": {
+        "50": "depthwise",
+        "51": "depthwise",
+        "52": "depthwise",
+        "53": "depthwise"
+    },
+    "max_leaves": {
+        "50": 0,
+        "51": 0,
+        "52": 0,
+        "53": 0
+    },
+    "max_depth": {
+        "50": 6,
+        "51": 10,
+        "52": 8,
+        "53": 6
+    },
+    "min_data_in_bin": {
+        "50": 10,
+        "51": 1,
+        "52": 3,
+        "53": 1
+    },
+    "min_child_samples": {
+        "50": 5,
+        "51": 1,
+        "52": 1,
+        "53": 1
+    },
+    "boosting_type": {
+        "50": "gbdt",
+        "51": "gbdt",
+        "52": "gbdt",
+        "53": "gbdt"
+    },
+    "enable_early_stopping_rounds": {
+        "50": true,
+        "51": true,
+        "52": true,
+        "53": true
+    },
+    "objective": {
+        "50": "multi:softprob",
+        "51": "multi:softprob",
+        "52": "multi:softprob",
+        "53": "multi:softprob"
+    },
+    "eval_metric": {
+        "50": "mlogloss",
+        "51": "mlogloss",
+        "52": "mlogloss",
+        "53": "mlogloss"
+    },
+    "monotonicity_constraints": {
+        "50": false,
+        "51": false,
+        "52": false,
+        "53": false
+    },
+    "silent": {
+        "50": true,
+        "51": true,
+        "52": true,
+        "53": true
+    },
+    "seed": {
+        "50": 1006544132,
+        "51": 1006544132,
+        "52": 1006544132,
+        "53": 1006544132
+    },
+    "disable_gpus": {
+        "50": true,
+        "51": true,
+        "52": true,
+        "53": true
+    },
+    "lossguide": {
+        "50": false,
+        "51": false,
+        "52": false,
+        "53": false
+    },
+    "dummy": {
+        "50": false,
+        "51": false,
+        "52": false,
+        "53": false
+    },
+    "ensemble_level": {
+        "50": 1,
+        "51": 1,
+        "52": 1,
+        "53": 1
+    },
+    "train_shape": {
+        "50": [
+            1842,
+            2
+        ],
+        "51": [
+            1842,
+            2
+        ],
+        "52": [
+            1842,
+            2
+        ],
+        "53": [
+            1842,
+            2
+        ]
+    },
+    "valid_shape": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "model_origin": {
+        "50": "SEQUENCE",
+        "51": "SEQUENCE",
+        "52": "SEQUENCE",
+        "53": "SEQUENCE"
+    },
+    "early_stopping_threshold": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "debug_verbose": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "epochs": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "add_wide": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "add_attention": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "layers": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "activation": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "batch_size": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "chunk_size": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "dropout": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "strategy": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "l1": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "l2": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "ort_loss": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "ort_loss_tau": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "normalize_type": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "best_learning_rate": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "task": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    },
+    "experiment_id": {
+        "50": "",
+        "51": "",
+        "52": "",
+        "53": ""
+    }
+}{
+    "indiv_id": {
+        "54": 0,
+        "55": 4,
+        "56": 6,
+        "57": 7
+    },
+    "iter_num": {
+        "54": 34,
+        "55": 34,
+        "56": 34,
+        "57": 34
+    },
+    "accuracy": {
+        "54": 7,
+        "55": 7,
+        "56": 7,
+        "57": 7
+    },
+    "time_tolerance": {
+        "54": 2,
+        "55": 2,
+        "56": 2,
+        "57": 2
+    },
+    "interpretability": {
+        "54": 8,
+        "55": 8,
+        "56": 8,
+        "57": 8
+    },
+    "score": {
+        "54": 0.7830983134,
+        "55": 0.7723654159,
+        "56": 0.7565789818,
+        "57": 0.7612914246
+    },
+    "tournament_score": {
+        "54": 0.7830983134,
+        "55": 0.7723654159,
+        "56": 0.7565789818,
+        "57": 0.7612914246
+    },
+    "score_sd": {
+        "54": 0.0315446371,
+        "55": 0.0301031757,
+        "56": 0.0297799809,
+        "57": 0.0275838656
+    },
+    "top derived_features": {
+        "54": "[['3_Txt:tweet.4', 1.0], ['3_Txt:tweet.5', 0.644895076751709], ['3_Txt:tweet.7', 0.6371714472770691]]",
+        "55": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['3_Txt:tweet.4', 0.6741579174995422], ['2_TEXTCNN_TE:tweet.2', 0.6242595314979553]]",
+        "56": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['3_Txt:tweet.4', 0.6313554048538208], ['2_TEXTCNN_TE:tweet.2', 0.5682569742202759]]",
+        "57": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['3_Txt:tweet.4', 0.7511928081512451], ['2_TEXTCNN_TE:tweet.2', 0.6185052990913391]]"
+    },
+    "top original_features": {
+        "54": "[['tweet', 1.0]]",
+        "55": "[['tweet', 1.0]]",
+        "56": "[['tweet', 1.0]]",
+        "57": "[['tweet', 1.0]]"
+    },
+    "training_times": {
+        "54": 5.561848402,
+        "55": 7.452893734,
+        "56": 6.5444693565,
+        "57": 4.1368153095
+    },
+    "best_iterations": {
+        "54": 95,
+        "55": 50,
+        "56": 81,
+        "57": 161
+    },
+    "last_3_mutation_try_actual_actions": {
+        "54": [
+            [
+                "add",
+                "add"
+            ],
+            [
+                "prune",
+                "prune_2"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ]
+        ],
+        "55": [
+            [
+                "prune_by_features",
+                "prune_by_features_1"
+            ],
+            [
+                "perturb_xgb",
+                "perturb_xgb"
+            ],
+            [
+                "add_best",
+                "add_best"
+            ]
+        ],
+        "56": [
+            [
+                "add",
+                "add"
+            ],
+            [
+                "prune_by_features",
+                "prune_by_features_1"
+            ],
+            [
+                "prune_by_features",
+                "prune_by_features_1"
+            ]
+        ],
+        "57": [
+            [
+                "add",
+                "add"
+            ],
+            [
+                "prune",
+                "prune_1"
+            ],
+            [
+                "add_best",
+                "add_best"
+            ]
+        ]
+    },
+    "ngenes_start": {
+        "54": 5,
+        "55": 5,
+        "56": 5,
+        "57": 5
+    },
+    "ngenes_max": {
+        "54": 100,
+        "55": 100,
+        "56": 100,
+        "57": 100
+    },
+    "ngenes": {
+        "54": 3,
+        "55": 6,
+        "56": 6,
+        "57": 4
+    },
+    "ngenes_dead": {
+        "54": 7,
+        "55": 6,
+        "56": 3,
+        "57": 11
+    },
+    "nfeatures_max": {
+        "54": 100,
+        "55": 100,
+        "56": 100,
+        "57": 100
+    },
+    "nfeatures": {
+        "54": 54,
+        "55": 65,
+        "56": 65,
+        "57": 59
+    },
+    "feature_cost": {
+        "54": 54,
+        "55": 65,
+        "56": 65,
+        "57": 59
+    },
+    "model_name": {
+        "54": "LIGHTGBM",
+        "55": "LIGHTGBM",
+        "56": "LIGHTGBM",
+        "57": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "54": "NoneType",
+        "55": "NoneType",
+        "56": "NoneType",
+        "57": "NoneType"
+    },
+    "from_brain": {
+        "54": false,
+        "55": false,
+        "56": false,
+        "57": false
+    },
+    "derived_from_brain": {
+        "54": false,
+        "55": false,
+        "56": false,
+        "57": false
+    },
+    "from_brain_count": {
+        "54": 0,
+        "55": 0,
+        "56": 0,
+        "57": 0
+    },
+    "derived_from_brain_count": {
+        "54": 0,
+        "55": 0,
+        "56": 0,
+        "57": 0
+    },
+    "booster": {
+        "54": "lightgbm",
+        "55": "lightgbm",
+        "56": "lightgbm",
+        "57": "lightgbm"
+    },
+    "model_class_name": {
+        "54": "LightGBMModel",
+        "55": "LightGBMModel",
+        "56": "LightGBMModel",
+        "57": "LightGBMModel"
+    },
+    "n_gpus": {
+        "54": 0,
+        "55": 0,
+        "56": 0,
+        "57": 0
+    },
+    "gpu_id": {
+        "54": 0,
+        "55": 0,
+        "56": 0,
+        "57": 0
+    },
+    "n_jobs": {
+        "54": 4,
+        "55": 4,
+        "56": 4,
+        "57": 4
+    },
+    "num_classes": {
+        "54": 3,
+        "55": 3,
+        "56": 3,
+        "57": 3
+    },
+    "num_class": {
+        "54": 3,
+        "55": 3,
+        "56": 3,
+        "57": 3
+    },
+    "labels": {
+        "54": [
+            0,
+            1,
+            2
+        ],
+        "55": [
+            0,
+            1,
+            2
+        ],
+        "56": [
+            0,
+            1,
+            2
+        ],
+        "57": [
+            0,
+            1,
+            2
+        ]
+    },
+    "score_f_name": {
+        "54": "LOGLOSS",
+        "55": "LOGLOSS",
+        "56": "LOGLOSS",
+        "57": "LOGLOSS"
+    },
+    "random_state": {
+        "54": 1006544132,
+        "55": 1006544132,
+        "56": 1006544132,
+        "57": 1006544132
+    },
+    "time_column": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "tgc": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "pred_gap": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "pred_periods": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "target": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "n_estimators": {
+        "54": 600,
+        "55": 600,
+        "56": 600,
+        "57": 600
+    },
+    "learning_rate": {
+        "54": 0.05,
+        "55": 0.05,
+        "56": 0.05,
+        "57": 0.05
+    },
+    "early_stopping_rounds": {
+        "54": 30,
+        "55": 30,
+        "56": 30,
+        "57": 30
+    },
+    "reg_alpha": {
+        "54": 0.0,
+        "55": 0.0,
+        "56": 0.0,
+        "57": 10.0
+    },
+    "reg_lambda": {
+        "54": 1.0,
+        "55": 0.5,
+        "56": 1.0,
+        "57": 0.0
+    },
+    "gamma": {
+        "54": 0.001,
+        "55": 0.1,
+        "56": 0.0,
+        "57": 0.0
+    },
+    "max_bin": {
+        "54": 128,
+        "55": 256,
+        "56": 256,
+        "57": 64
+    },
+    "scale_pos_weight": {
+        "54": 1.0,
+        "55": 1.0,
+        "56": 1.0,
+        "57": 1.0
+    },
+    "max_delta_step": {
+        "54": 0.0,
+        "55": 0.0,
+        "56": 0.0,
+        "57": 0.0
+    },
+    "min_child_weight": {
+        "54": 1,
+        "55": 1,
+        "56": 1,
+        "57": 1
+    },
+    "subsample": {
+        "54": 0.4,
+        "55": 0.5,
+        "56": 0.7,
+        "57": 0.6
+    },
+    "subsample_freq": {
+        "54": 5,
+        "55": 1,
+        "56": 1,
+        "57": 1
+    },
+    "colsample_bytree": {
+        "54": 0.7,
+        "55": 0.5,
+        "56": 0.8,
+        "57": 0.7
+    },
+    "tree_method": {
+        "54": "hist",
+        "55": "hist",
+        "56": "hist",
+        "57": "hist"
+    },
+    "grow_policy": {
+        "54": "lossguide",
+        "55": "lossguide",
+        "56": "depthwise",
+        "57": "depthwise"
+    },
+    "max_leaves": {
+        "54": 64,
+        "55": 256,
+        "56": 0,
+        "57": 0
+    },
+    "max_depth": {
+        "54": 0,
+        "55": 0,
+        "56": 6,
+        "57": 10
+    },
+    "min_data_in_bin": {
+        "54": 10,
+        "55": 1,
+        "56": 1,
+        "57": 1
+    },
+    "min_child_samples": {
+        "54": 1,
+        "55": 1,
+        "56": 1,
+        "57": 1
+    },
+    "boosting_type": {
+        "54": "gbdt",
+        "55": "gbdt",
+        "56": "gbdt",
+        "57": "gbdt"
+    },
+    "enable_early_stopping_rounds": {
+        "54": true,
+        "55": true,
+        "56": true,
+        "57": true
+    },
+    "objective": {
+        "54": "multi:softprob",
+        "55": "multi:softprob",
+        "56": "multi:softprob",
+        "57": "multi:softprob"
+    },
+    "eval_metric": {
+        "54": "mlogloss",
+        "55": "mlogloss",
+        "56": "mlogloss",
+        "57": "mlogloss"
+    },
+    "monotonicity_constraints": {
+        "54": false,
+        "55": false,
+        "56": false,
+        "57": false
+    },
+    "silent": {
+        "54": true,
+        "55": true,
+        "56": true,
+        "57": true
+    },
+    "seed": {
+        "54": 1006544132,
+        "55": 1006544132,
+        "56": 1006544132,
+        "57": 1006544132
+    },
+    "disable_gpus": {
+        "54": true,
+        "55": true,
+        "56": true,
+        "57": true
+    },
+    "lossguide": {
+        "54": false,
+        "55": false,
+        "56": false,
+        "57": false
+    },
+    "dummy": {
+        "54": false,
+        "55": false,
+        "56": false,
+        "57": false
+    },
+    "ensemble_level": {
+        "54": 1,
+        "55": 1,
+        "56": 1,
+        "57": 1
+    },
+    "train_shape": {
+        "54": [
+            1842,
+            2
+        ],
+        "55": [
+            1842,
+            2
+        ],
+        "56": [
+            1842,
+            2
+        ],
+        "57": [
+            1842,
+            2
+        ]
+    },
+    "valid_shape": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "model_origin": {
+        "54": "SEQUENCE",
+        "55": "SEQUENCE",
+        "56": "SEQUENCE",
+        "57": "SEQUENCE"
+    },
+    "early_stopping_threshold": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "debug_verbose": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "epochs": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "add_wide": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "add_attention": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "layers": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "activation": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "batch_size": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "chunk_size": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "dropout": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "strategy": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "l1": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "l2": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "ort_loss": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "ort_loss_tau": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "normalize_type": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "best_learning_rate": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "task": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    },
+    "experiment_id": {
+        "54": "",
+        "55": "",
+        "56": "",
+        "57": ""
+    }
+}{
+    "indiv_id": {
+        "58": 1,
+        "59": 3,
+        "60": 6,
+        "61": 7
+    },
+    "iter_num": {
+        "58": 35,
+        "59": 35,
+        "60": 35,
+        "61": 35
+    },
+    "accuracy": {
+        "58": 7,
+        "59": 7,
+        "60": 7,
+        "61": 7
+    },
+    "time_tolerance": {
+        "58": 2,
+        "59": 2,
+        "60": 2,
+        "61": 2
+    },
+    "interpretability": {
+        "58": 8,
+        "59": 8,
+        "60": 8,
+        "61": 8
+    },
+    "score": {
+        "58": 0.7691024503,
+        "59": 0.7598702719,
+        "60": 0.7600552183,
+        "61": 0.761042921
+    },
+    "tournament_score": {
+        "58": 0.7691024503,
+        "59": 0.7598702719,
+        "60": 0.7600552183,
+        "61": 0.761042921
+    },
+    "score_sd": {
+        "58": 0.0300698123,
+        "59": 0.0279508475,
+        "60": 0.0280383687,
+        "61": 0.0291581105
+    },
+    "top derived_features": {
+        "58": "[['3_Txt:tweet.4', 1.0], ['3_Txt:tweet.7', 0.6842297315597534], ['3_Txt:tweet.5', 0.6023058891296387]]",
+        "59": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['2_TEXTCNN_TE:tweet.2', 0.6031708717346191], ['3_Txt:tweet.4', 0.5388116240501404]]",
+        "60": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['2_TEXTCNN_TE:tweet.2', 0.6906971335411072], ['3_Txt:tweet.4', 0.49277859926223755]]",
+        "61": "[['2_TEXTCNN_TE:tweet.1', 1.0], ['3_Txt:tweet.4', 0.7157344222068787], ['16_TEXTBIGRU_TE:tweet.1', 0.5829351544380188]]"
+    },
+    "top original_features": {
+        "58": "[['tweet', 1.0]]",
+        "59": "[['tweet', 1.0]]",
+        "60": "[['tweet', 1.0]]",
+        "61": "[['tweet', 1.0]]"
+    },
+    "training_times": {
+        "58": 6.4675455093,
+        "59": 3.7791743279,
+        "60": 3.6472005844,
+        "61": 5.4479835033
+    },
+    "best_iterations": {
+        "58": 78,
+        "59": 56,
+        "60": 133,
+        "61": 67
+    },
+    "last_3_mutation_try_actual_actions": {
+        "58": [
+            [
+                "prune",
+                "prune_3"
+            ],
+            [
+                "prune_by_features",
+                "prune_by_features_3"
+            ],
+            [
+                "prune",
+                "prune_2"
+            ]
+        ],
+        "59": [
+            [
+                "add_best",
+                "perturb_xgb"
+            ],
+            [
+                "add_best",
+                "prune_by_features_2"
+            ],
+            [
+                "add_best",
+                "prune_3"
+            ]
+        ],
+        "60": [
+            [
+                "prune_by_features",
+                "prune_by_features_3"
+            ],
+            [
+                "prune",
+                "prune_1"
+            ],
+            [
+                "add",
+                "add"
+            ]
+        ],
+        "61": [
+            [
+                "add",
+                "add"
+            ],
+            [
+                "add",
+                "add"
+            ],
+            [
+                "add_best",
+                "add_best"
+            ]
+        ]
+    },
+    "ngenes_start": {
+        "58": 5,
+        "59": 5,
+        "60": 5,
+        "61": 5
+    },
+    "ngenes_max": {
+        "58": 100,
+        "59": 100,
+        "60": 100,
+        "61": 100
+    },
+    "ngenes": {
+        "58": 1,
+        "59": 2,
+        "60": 3,
+        "61": 5
+    },
+    "ngenes_dead": {
+        "58": 8,
+        "59": 5,
+        "60": 8,
+        "61": 11
+    },
+    "nfeatures_max": {
+        "58": 100,
+        "59": 100,
+        "60": 100,
+        "61": 100
+    },
+    "nfeatures": {
+        "58": 50,
+        "59": 53,
+        "60": 56,
+        "61": 62
+    },
+    "feature_cost": {
+        "58": 50,
+        "59": 53,
+        "60": 56,
+        "61": 62
+    },
+    "model_name": {
+        "58": "LIGHTGBM",
+        "59": "LIGHTGBM",
+        "60": "LIGHTGBM",
+        "61": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "58": "NoneType",
+        "59": "NoneType",
+        "60": "NoneType",
+        "61": "NoneType"
+    },
+    "from_brain": {
+        "58": false,
+        "59": false,
+        "60": false,
+        "61": false
+    },
+    "derived_from_brain": {
+        "58": false,
+        "59": false,
+        "60": false,
+        "61": false
+    },
+    "from_brain_count": {
+        "58": 0,
+        "59": 0,
+        "60": 0,
+        "61": 0
+    },
+    "derived_from_brain_count": {
+        "58": 0,
+        "59": 0,
+        "60": 0,
+        "61": 0
+    },
+    "booster": {
+        "58": "lightgbm",
+        "59": "lightgbm",
+        "60": "lightgbm",
+        "61": "lightgbm"
+    },
+    "model_class_name": {
+        "58": "LightGBMModel",
+        "59": "LightGBMModel",
+        "60": "LightGBMModel",
+        "61": "LightGBMModel"
+    },
+    "n_gpus": {
+        "58": 0,
+        "59": 0,
+        "60": 0,
+        "61": 0
+    },
+    "gpu_id": {
+        "58": 0,
+        "59": 0,
+        "60": 0,
+        "61": 0
+    },
+    "n_jobs": {
+        "58": 4,
+        "59": 4,
+        "60": 4,
+        "61": 4
+    },
+    "num_classes": {
+        "58": 3,
+        "59": 3,
+        "60": 3,
+        "61": 3
+    },
+    "num_class": {
+        "58": 3,
+        "59": 3,
+        "60": 3,
+        "61": 3
+    },
+    "labels": {
+        "58": [
+            0,
+            1,
+            2
+        ],
+        "59": [
+            0,
+            1,
+            2
+        ],
+        "60": [
+            0,
+            1,
+            2
+        ],
+        "61": [
+            0,
+            1,
+            2
+        ]
+    },
+    "score_f_name": {
+        "58": "LOGLOSS",
+        "59": "LOGLOSS",
+        "60": "LOGLOSS",
+        "61": "LOGLOSS"
+    },
+    "random_state": {
+        "58": 1006544132,
+        "59": 1006544132,
+        "60": 1006544132,
+        "61": 1006544132
+    },
+    "time_column": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "tgc": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "pred_gap": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "pred_periods": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "target": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "n_estimators": {
+        "58": 600,
+        "59": 600,
+        "60": 600,
+        "61": 600
+    },
+    "learning_rate": {
+        "58": 0.05,
+        "59": 0.05,
+        "60": 0.05,
+        "61": 0.05
+    },
+    "early_stopping_rounds": {
+        "58": 30,
+        "59": 30,
+        "60": 30,
+        "61": 30
+    },
+    "reg_alpha": {
+        "58": 0.0,
+        "59": 0.0,
+        "60": 2.0,
+        "61": 0.0
+    },
+    "reg_lambda": {
+        "58": 1.0,
+        "59": 0.1,
+        "60": 0.0,
+        "61": 5.0
+    },
+    "gamma": {
+        "58": 0.0,
+        "59": 0.0,
+        "60": 0.0,
+        "61": 0.0
+    },
+    "max_bin": {
+        "58": 256,
+        "59": 256,
+        "60": 256,
+        "61": 128
+    },
+    "scale_pos_weight": {
+        "58": 1.0,
+        "59": 1.0,
+        "60": 1.0,
+        "61": 1.0
+    },
+    "max_delta_step": {
+        "58": 0.0,
+        "59": 0.0,
+        "60": 0.0,
+        "61": 0.0
+    },
+    "min_child_weight": {
+        "58": 1,
+        "59": 1,
+        "60": 1,
+        "61": 1
+    },
+    "subsample": {
+        "58": 0.7,
+        "59": 0.9,
+        "60": 0.7,
+        "61": 0.5
+    },
+    "subsample_freq": {
+        "58": 1,
+        "59": 1,
+        "60": 10,
+        "61": 1
+    },
+    "colsample_bytree": {
+        "58": 0.8,
+        "59": 0.65,
+        "60": 0.35,
+        "61": 0.55
+    },
+    "tree_method": {
+        "58": "hist",
+        "59": "hist",
+        "60": "hist",
+        "61": "hist"
+    },
+    "grow_policy": {
+        "58": "depthwise",
+        "59": "depthwise",
+        "60": "lossguide",
+        "61": "lossguide"
+    },
+    "max_leaves": {
+        "58": 0,
+        "59": 0,
+        "60": 8,
+        "61": 32
+    },
+    "max_depth": {
+        "58": 6,
+        "59": 5,
+        "60": 0,
+        "61": 0
+    },
+    "min_data_in_bin": {
+        "58": 1,
+        "59": 5,
+        "60": 5,
+        "61": 1
+    },
+    "min_child_samples": {
+        "58": 1,
+        "59": 1,
+        "60": 1,
+        "61": 5
+    },
+    "boosting_type": {
+        "58": "gbdt",
+        "59": "gbdt",
+        "60": "gbdt",
+        "61": "gbdt"
+    },
+    "enable_early_stopping_rounds": {
+        "58": true,
+        "59": true,
+        "60": true,
+        "61": true
+    },
+    "objective": {
+        "58": "multi:softprob",
+        "59": "multi:softprob",
+        "60": "multi:softprob",
+        "61": "multi:softprob"
+    },
+    "eval_metric": {
+        "58": "mlogloss",
+        "59": "mlogloss",
+        "60": "mlogloss",
+        "61": "mlogloss"
+    },
+    "monotonicity_constraints": {
+        "58": false,
+        "59": false,
+        "60": false,
+        "61": false
+    },
+    "silent": {
+        "58": true,
+        "59": true,
+        "60": true,
+        "61": true
+    },
+    "seed": {
+        "58": 1006544132,
+        "59": 1006544132,
+        "60": 1006544132,
+        "61": 1006544132
+    },
+    "disable_gpus": {
+        "58": true,
+        "59": true,
+        "60": true,
+        "61": true
+    },
+    "lossguide": {
+        "58": false,
+        "59": false,
+        "60": false,
+        "61": false
+    },
+    "dummy": {
+        "58": false,
+        "59": false,
+        "60": false,
+        "61": false
+    },
+    "ensemble_level": {
+        "58": 1,
+        "59": 1,
+        "60": 1,
+        "61": 1
+    },
+    "train_shape": {
+        "58": [
+            1842,
+            2
+        ],
+        "59": [
+            1842,
+            2
+        ],
+        "60": [
+            1842,
+            2
+        ],
+        "61": [
+            1842,
+            2
+        ]
+    },
+    "valid_shape": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "model_origin": {
+        "58": "SEQUENCE",
+        "59": "SEQUENCE",
+        "60": "SEQUENCE",
+        "61": "SEQUENCE"
+    },
+    "early_stopping_threshold": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "debug_verbose": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "epochs": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "add_wide": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "add_attention": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "layers": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "activation": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "batch_size": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "chunk_size": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "dropout": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "strategy": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "l1": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "l2": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "ort_loss": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "ort_loss_tau": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "normalize_type": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "best_learning_rate": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "task": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    },
+    "experiment_id": {
+        "58": "",
+        "59": "",
+        "60": "",
+        "61": ""
+    }
+}
