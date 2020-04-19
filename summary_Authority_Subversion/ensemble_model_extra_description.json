@@ -1,0 +1,17 @@
+{
+    "Individual": {
+        "0": 0
+    },
+    "Model": {
+        "0": "XGBOOSTGBM"
+    },
+    "do_te": {
+        "0": true
+    },
+    "num_as_cat": {
+        "0": true
+    },
+    "interpretability": {
+        "0": 8
+    }
+}

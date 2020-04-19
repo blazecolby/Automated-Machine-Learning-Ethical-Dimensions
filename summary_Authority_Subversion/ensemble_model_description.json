@@ -1,0 +1,74 @@
+{
+    "index": {
+        "0": 0,
+        "1": 1
+    },
+    "Type": {
+        "0": "XGBoostGBMModel",
+        "1": "ConstantModel"
+    },
+    "Num Folds": {
+        "0": 3,
+        "1": 3
+    },
+    "Model Weight": {
+        "0": 1.0,
+        "1": 0.0
+    },
+    "booster": {
+        "0": "gbtree",
+        "1": "constant"
+    },
+    "model_class_name": {
+        "0": "XGBoostGBMModel",
+        "1": ""
+    },
+    "max_depth": {
+        "0": 0,
+        "1": ""
+    },
+    "max_leaves": {
+        "0": 128,
+        "1": ""
+    },
+    "subsample": {
+        "0": 0.8,
+        "1": ""
+    },
+    "colsample_bytree": {
+        "0": 0.2,
+        "1": ""
+    },
+    "tree_method": {
+        "0": "hist",
+        "1": ""
+    },
+    "grow_policy": {
+        "0": "lossguide",
+        "1": ""
+    },
+    "random_state": {
+        "0": 1070830757,
+        "1": ""
+    },
+    "learning rate": {
+        "0": 0.03,
+        "1": ""
+    },
+    "Target Transformer": {
+        "0": "LabelEncoder",
+        "1": "LabelEncoder"
+    },
+    "Fitted features": {
+        "0": 59,
+        "1": 1
+    },
+    "Fit iterations [each fold]": {
+        "0": [
+            198,
+            215,
+            186
+        ],
+        "1": []
+    }
+}
