@@ -1,3 +1,13 @@
+This Repository walks through an automated machine learning example using H2O's automated machine learning Python client. I cover what moral dimensions are then using a political tweet corpus, predict those moral dimensions.
+
+I include the following steps:
+- Google Cloud Compute setup
+- Installing Driverless AI on GCP instance
+- Installing Driverless AI Python Client on GCP instance
+- Installing Jupyter on GCP instance
+- And running through an example on Jupyter
+
+
 ### Google Cloud Compute CPU Setup
 - Login to [Google Compute Engine](https://console.cloud.google.com)
 - Navigate to [GCP Instances](https://console.cloud.google.com/compute/instances)
