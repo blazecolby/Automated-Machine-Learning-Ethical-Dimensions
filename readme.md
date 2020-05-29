@@ -1,3 +1,4 @@
+### Introduction
 This Repository walks through an automated machine learning example using H2O's automated machine learning Python client. I cover what moral dimensions are then using a political tweet corpus, predict those moral dimensions.
 
 I include the following steps:
@@ -6,6 +7,8 @@ I include the following steps:
 - Installing Driverless AI Python Client on GCP instance
 - Installing Jupyter on GCP instance
 - And running through an example on Jupyter
+
+To follow notebook walkthrough go to twitter_sentiment.ipynb
 
 
 ### Google Cloud Compute CPU Setup
