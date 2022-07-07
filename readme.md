@@ -1,7 +1,7 @@
 ### Introduction
 This Repository walks through an automated machine learning example using H2O's automated machine learning Python client. I cover what moral dimensions are then using a political tweet corpus, predict those moral dimensions.
 
-Main Notebook [Automatic Sentiment Analysis](https://github.com/blazecolby/Automated-Machine-Learning-Ethical-Dimensions/blob/master/twitter_sentiment.ipynb)
+Main Notebook: [Automatic Sentiment Analysis](https://github.com/blazecolby/Automated-Machine-Learning-Ethical-Dimensions/blob/master/twitter_sentiment.ipynb)
 
 I include the following steps:
 - Google Cloud Compute setup
